@@ -38,68 +38,68 @@ public class Actuator implements Cloneable, Device
     {
         this.id = id;
     }
-    
-    
 
-    public String getNaziv()
+    public String getName()
     {
         return name;
     }
 
-    public void setNaziv(String naziv)
+    public void setName(String name)
     {
-        this.name = naziv;
+        this.name = name;
     }
 
-    public int getTip()
+    public int getType()
     {
         return type;
     }
 
-    public void setTip(int tip)
+    public void setType(int type)
     {
-        this.type = tip;
+        this.type = type;
     }
 
-    public String getVrsta()
+    public String getKind()
     {
         return kind;
     }
 
-    public void setVrsta(String vrsta)
+    public void setKind(String kind)
     {
-        this.kind = vrsta;
+        this.kind = kind;
     }
 
-    public float getMinVrijednost()
+    public float getMinValue()
     {
         return minValue;
     }
 
-    public void setMinVrijednost(float minVrijednost)
+    public void setMinValue(float minValue)
     {
-        this.minValue = minVrijednost;
+        this.minValue = minValue;
     }
 
-    public float getMaxVrijednost()
+    public float getMaxValue()
     {
         return maxValue;
     }
 
-    public void setMaxVrijednost(float maxVrijednost)
+    public void setMaxValue(float maxValue)
     {
-        this.maxValue = maxVrijednost;
+        this.maxValue = maxValue;
     }
 
-    public String getKomentar()
+    public String getComment()
     {
         return comment;
     }
 
-    public void setKomentar(String komentar)
+    public void setComment(String comment)
     {
-        this.comment = komentar;
+        this.comment = comment;
     }
+
+    
     
     @Override
     public Object clone() throws CloneNotSupportedException

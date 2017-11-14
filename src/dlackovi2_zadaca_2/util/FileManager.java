@@ -61,11 +61,11 @@ public class FileManager
                     {
                         Place pla = (Place) placePrototype.clone();
                         String[] places = line.split(delimiter);
-                        pla.setNaziv(places[0]);
-                        pla.setTip(Integer.valueOf(places[1]));
-                        pla.setBrojSenzora(Integer.valueOf(places[2]));
-                        pla.setBrojAktuatora(Integer.valueOf(places[3]));
-                        pla.setKoristi(true);
+                        pla.setName(places[0]);
+                        pla.setType(Integer.valueOf(places[1]));
+                        pla.setnSensors(Integer.valueOf(places[2]));
+                        pla.setnActuators(Integer.valueOf(places[3]));
+                        pla.setUsable(true);
                         
                         data.add(pla);
                     }
@@ -76,14 +76,14 @@ public class FileManager
                     {
                         Sensor sen = (Sensor) sensorPrototype.clone();
                         String[] sensors = line.split(delimiter);
-                        sen.setNaziv(sensors[0]);
-                        sen.setTip(Integer.valueOf(sensors[1]));
-                        sen.setVrsta(sensors[2]);
-                        sen.setMinVrijednost(Float.valueOf(sensors[3]));
-                        sen.setMaxVrijednost(Float.valueOf(sensors[4]));
+                        sen.setName(sensors[0]);
+                        sen.setType(Integer.valueOf(sensors[1]));
+                        sen.setKind(sensors[2]);
+                        sen.setMinValue(Float.valueOf(sensors[3]));
+                        sen.setMaxValue(Float.valueOf(sensors[4]));
                         if (sensors.length == 6)
                         {
-                            sen.setKomentar(sensors[5]);
+                            sen.setComment(sensors[5]);
                         }
                         
                         data.add(sen);
@@ -95,14 +95,14 @@ public class FileManager
                     {
                         Actuator act = new Actuator();
                         String[] actuators = line.split(delimiter);
-                        act.setNaziv(actuators[0]);
-                        act.setTip(Integer.valueOf(actuators[1]));
-                        act.setVrsta(actuators[2]);
-                        act.setMinVrijednost(Float.valueOf(actuators[3]));
-                        act.setMaxVrijednost(Float.valueOf(actuators[4]));
+                        act.setName(actuators[0]);
+                        act.setType(Integer.valueOf(actuators[1]));
+                        act.setKind(actuators[2]);
+                        act.setMinValue(Float.valueOf(actuators[3]));
+                        act.setMaxValue(Float.valueOf(actuators[4]));
                         if (actuators.length == 6)
                         {
-                            act.setKomentar(actuators[5]);
+                            act.setComment(actuators[5]);
                         }
 
                         data.add(act);

@@ -20,6 +20,19 @@ public class ValidArguments
     private int nCycle;
     private String outputFile;
     private int outputBuffer;
+    
+    public ValidArguments(long seed, String placesFile, String sensorsFile, String actuatorsFile, String algorithm, int cycleDuration, int nCycle, String outputFile, int outputBuffer)
+    {
+        this.seed = seed;
+        this.placesFile = placesFile;
+        this.sensorsFile = sensorsFile;
+        this.actuatorsFile = actuatorsFile;
+        this.algorithm = algorithm;
+        this.cycleDuration = cycleDuration;
+        this.nCycle = nCycle;
+        this.outputFile = outputFile;
+        this.outputBuffer = outputBuffer;
+    }
 
     public long getSeed()
     {
@@ -108,19 +121,6 @@ public class ValidArguments
 
     public void setOutputBuffer(int outputBuffer)
     {
-        this.outputBuffer = outputBuffer;
-    }
-
-    public ValidArguments(long seed, String placesFile, String sensorsFile, String actuatorsFile, String algorithm, int cycleDuration, int nCycle, String outputFile, int outputBuffer)
-    {
-        this.seed = seed;
-        this.placesFile = placesFile;
-        this.sensorsFile = sensorsFile;
-        this.actuatorsFile = actuatorsFile;
-        this.algorithm = algorithm;
-        this.cycleDuration = cycleDuration;
-        this.nCycle = nCycle;
-        this.outputFile = outputFile;
         this.outputBuffer = outputBuffer;
     }
     

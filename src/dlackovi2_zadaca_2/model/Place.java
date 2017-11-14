@@ -31,56 +31,66 @@ public class Place implements Cloneable
         this.usable = koristi;
     }
 
-    public String getNaziv()
+    public int getId()
+    {
+        return id;
+    }
+
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+
+    public String getName()
     {
         return name;
     }
 
-    public void setNaziv(String naziv)
+    public void setName(String name)
     {
-        this.name = naziv;
+        this.name = name;
     }
 
-    public int getTip()
+    public int getType()
     {
         return type;
     }
 
-    public void setTip(int tip)
+    public void setType(int type)
     {
-        this.type = tip;
+        this.type = type;
     }
 
-    public int getBrojSenzora()
+    public int getnSensors()
     {
         return nSensors;
     }
 
-    public void setBrojSenzora(int brojSenzora)
+    public void setnSensors(int nSensors)
     {
-        this.nSensors = brojSenzora;
+        this.nSensors = nSensors;
     }
 
-    public int getBrojAktuatora()
+    public int getnActuators()
     {
         return nActuators;
     }
 
-    public void setBrojAktuatora(int brojAktuatora)
+    public void setnActuators(int nActuators)
     {
-        this.nActuators = brojAktuatora;
+        this.nActuators = nActuators;
     }
 
-    public boolean isKoristi()
+    public boolean isUsable()
     {
         return usable;
     }
 
-    public void setKoristi(boolean koristi)
+    public void setUsable(boolean usable)
     {
-        this.usable = koristi;
+        this.usable = usable;
     }
-    
+
     public List<Device> getDevices()
     {
         return devices;
@@ -91,19 +101,11 @@ public class Place implements Cloneable
         this.devices = devices;
     }
 
-    public int getId()
-    {
-        return id;
-    }
-
-    public void setId(int id)
-    {
-        this.id = id;
-    }
+    
     
     @Override
     public Object clone() throws CloneNotSupportedException
     {
-        return this;
+        return super.clone();
     }
 }
