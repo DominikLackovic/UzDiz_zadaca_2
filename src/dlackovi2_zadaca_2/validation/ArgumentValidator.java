@@ -166,8 +166,8 @@ public class ArgumentValidator
         if (cmd.getOptionValue("g") == null)
         {
             //uzima se broj milisekundi u trenutnom vremenu na bazi njegovog broja sekundi i broja milisekundi.
-            System.out.println("Nije uneseno!");
-            seed = 556l;
+            seed = System.currentTimeMillis() % 1000;
+            System.out.println(seed);
         }
         else
         {

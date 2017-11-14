@@ -1,5 +1,6 @@
 package dlackovi2_zadaca_2;
 
+import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
 import dlackovi2_zadaca_2.validation.ArgumentValidator;
 import dlackovi2_zadaca_2.validation.ValidArguments;
 import java.text.ParseException;
@@ -20,7 +21,7 @@ public class Dlackovi2_zadaca_2
      */
     public static void main(String[] args) throws ParseException, org.apache.commons.cli.ParseException
     {
-        ValidArguments validArguments = new ArgumentValidator().validate(args);
+        /*ValidArguments validArguments = new ArgumentValidator().validate(args);
         
         System.out.println(validArguments.getSeed());
         System.out.println(validArguments.getPlacesFile());
@@ -30,6 +31,7 @@ public class Dlackovi2_zadaca_2
         System.out.println(validArguments.getCycleDuration());
         System.out.println(validArguments.getnCycle());
         System.out.println(validArguments.getOutputFile());
-        System.out.println(validArguments.getOutputBuffer());
+        System.out.println(validArguments.getOutputBuffer());*/
+        
     }
 }
