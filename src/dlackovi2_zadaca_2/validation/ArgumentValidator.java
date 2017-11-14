@@ -7,6 +7,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 
 /**
  *
@@ -14,7 +19,8 @@ import java.util.List;
  */
 public class ArgumentValidator
 {
-    private int seed;
+
+    private long seed;
     private String placesFile;
     private String sensorsFile;
     private String actuatorsFile;
@@ -24,19 +30,30 @@ public class ArgumentValidator
     private String outputFile;
     private int outputBuffer;
 
-    String args[];
+    private final Options options;
+    private final CommandLineParser parser;
 
-    public ArgumentValidator(String args[])
+    public ArgumentValidator()
     {
-        this.args = args;
+        this.parser = new DefaultParser();
+        this.options = new Options();
+        options.addOption("g", true, "Arg1");
+        options.addOption("m", true, "Arg2");
+        options.addOption("s", true, "Arg3");
+        options.addOption("a", true, "Arg4");
+        options.addOption("alg", true, "Arg5");
+        options.addOption("tcd", true, "Arg6");
+        options.addOption("bcd", true, "Arg7");
+        options.addOption("i", true, "Arg8");
+        options.addOption("brl", true, "Arg9");
     }
 
-    public int getSeed()
+    public long getSeed()
     {
         return seed;
     }
 
-    public void setSeed(int seed)
+    public void setSeed(long seed)
     {
         this.seed = seed;
     }
@@ -121,7 +138,7 @@ public class ArgumentValidator
         this.outputBuffer = outputBuffer;
     }
 
-    public ValidArguments validate()
+    public ValidArguments validate(final String[] args) throws ParseException
     {
         boolean hasError = false;
 
@@ -135,187 +152,181 @@ public class ArgumentValidator
                     + "\n-alg puni naziv klase algoritma provjere koja se dinamički učitava \n-tcd trajanje ciklusa dretve u sek. Ako nije upisana opcija, uzima se slučajni broj u intervalu 1 - 17. \n-bcd broj ciklusa dretve. Ako nije upisana opcija, uzima se slučajni broj u intervalu 1 - 23. \n-i naziv datoteke u koju se sprema izlaz programa. Ako nije upisana opcija, uzima se vlastito korisničko ime kojem se dodaje trenutni podaci vremena po formatu _ggggmmdd_hhmmss.txt npr. dkermek_20171105_203128.txt \n-brl broj linija u spremniku za upis u datoteku za izlaz. Ako nije upisana opcija, uzima se slučajni broj u intervalu 100 - 999. \n--help pomoć za korištenje opcija u programu");
             System.exit(0);
         }
-
+ 
+        CommandLine cmd = parser.parse(options, args);
         List<String> checkList = Arrays.asList("-g", "-m", "-s", "-a", "-alg", "-tcd", "-bcd", "-i", "-brl");
         List<String> argsList = Arrays.asList(args);
-        if (!argsList.containsAll(checkList))
+        /*if (!argsList.containsAll(checkList))
         {
             System.out.println("Nepotpuni broj argumenata.");
+            System.exit(0);
+        }*/
+
+        System.out.print("Seed: ");
+        if (cmd.getOptionValue("g") == null)
+        {
+            //uzima se broj milisekundi u trenutnom vremenu na bazi njegovog broja sekundi i broja milisekundi.
+            System.out.println("Nije uneseno!");
+            seed = 556l;
+        }
+        else
+        {
+            long s = Long.valueOf(cmd.getOptionValue("g"));
+            if (s >= 100 && s <= 65535)
+            {
+                seed = s;
+                System.out.println(seed);
+            }
+            else
+            {
+                System.out.println("Error!");
+                hasError = true;
+            }
+        }
+
+        System.out.print("Places: ");
+        if (cmd.getOptionValue("m") != null && Files.exists(Paths.get(cmd.getOptionValue("m"))))
+        {
+            placesFile = cmd.getOptionValue("m");
+            System.out.println(placesFile);
+        }
+        else
+        {
+            System.out.println("Error!");
+            hasError = true;
+        }
+
+        System.out.print("Sensors: ");
+        if (cmd.getOptionValue("s") != null && Files.exists(Paths.get(cmd.getOptionValue("s"))))
+        {
+            sensorsFile = cmd.getOptionValue("s");
+            System.out.println(sensorsFile);
+        }
+        else
+        {
+            System.out.println("Error!");
+            hasError = true;
+        }
+
+        System.out.print("Actuators: ");
+        if (cmd.getOptionValue("a") != null && Files.exists(Paths.get(cmd.getOptionValue("a"))))
+        {
+            actuatorsFile = cmd.getOptionValue("a");
+            System.out.println(actuatorsFile);
+        }
+        else
+        {
+            System.out.println("Error!");
+            hasError = true;
+        }
+
+        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "nasumicno");
+        System.out.print("Algorithm: ");
+        if (cmd.getOptionValue("alg") != null && algorithms.contains(cmd.getOptionValue("alg")))
+        {
+            algorithm = cmd.getOptionValue("alg");
+            System.out.println(algorithm);
+        }
+        else
+        {
+            System.out.println("Error!");
+            hasError = true;
+        }
+
+        System.out.print("Cycle duration: ");
+        if (cmd.getOptionValue("tcd") == null)
+        {
+            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
+            cycleDuration = rng.dajSlucajniBroj(1, 17);
+            System.out.println(cycleDuration);
+        }
+        else
+        {
+            if (Integer.valueOf(cmd.getOptionValue("tcd")) == (int) Integer.valueOf(cmd.getOptionValue("tcd")))
+            {
+                cycleDuration = Integer.valueOf(cmd.getOptionValue("tcd"));
+                System.out.println(cycleDuration);
+            }
+            else
+            {
+                System.out.println("Error!");
+                hasError = true;
+            }
+        }
+
+        System.out.print("Number of cycles: ");
+        if (cmd.getOptionValue("bcd") == null)
+        {
+            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
+            nCycle = rng.dajSlucajniBroj(1, 23);
+            System.out.println(nCycle);
+        }
+        else
+        {
+            if (Integer.valueOf(cmd.getOptionValue("bcd")) == (int) Integer.valueOf(cmd.getOptionValue("bcd")))
+            {
+                nCycle = Integer.valueOf(cmd.getOptionValue("bcd"));
+                System.out.println(nCycle);
+            }
+            else
+            {
+                System.out.println("Error!");
+                hasError = true;
+            }
+        }
+
+        System.out.print("Output: ");
+        if (cmd.getOptionValue("i") == null)
+        {
+            outputFile = "dlackovi2_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")).replace(" ", "_").replace("-", "").replace(":", "");
+            System.out.println(outputFile);
+        }
+        else
+        {
+            if (cmd.getOptionValue("i").endsWith(".txt"))
+            {
+                outputFile = cmd.getOptionValue("i");
+                System.out.println(outputFile);
+            }
+            else
+            {
+                System.out.println("Error!");
+                hasError = true;
+            }
+        }
+
+        System.out.print("Output file buffer size: ");
+        if (cmd.getOptionValue("brl") == null)
+        {
+            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
+            outputBuffer = rng.dajSlucajniBroj(100, 999);
+            System.out.println(outputBuffer);
+        }
+        else
+        {
+            int d = Integer.valueOf(cmd.getOptionValue("brl"));
+            if (d == (int) d)
+            {
+                outputBuffer = d;
+                System.out.println(outputBuffer);
+            }
+            else
+            {
+                System.out.println("Error!");
+                hasError = true;
+            }
+        }
+
+        if (hasError)
+        {
+            System.out.println("\nQuiting...");
             System.exit(0);
         }
         else
         {
-            for (int i = 0; i < args.length; i++)
-            {
-                switch (args[i])
-                {
-                    case "-g":
-                        System.out.print("Seed: ");
-                        if (args[i + 1].startsWith("-"))//sto ako je zadnji element
-                        {
-                            //uzima se broj milisekundi u trenutnom vremenu na bazi njegovog broja sekundi i broja milisekundi.
-                        }
-                        else
-                        {
-                            int s = Integer.parseInt(args[i + 1]);
-                            if (s >= 100 && s <= 65535)
-                            {
-                                System.out.println(s);
-                                seed = s;
-                            }
-                            else
-                            {
-                                System.out.println("Error!");
-                                hasError = true;
-                            }
-                        }
-                        break;
-                    case "-m":
-                        System.out.print("Places: ");
-                        if (!args[i + 1].startsWith("-") && Files.exists(Paths.get(args[i + 1])))
-                        {
-                            System.out.println(args[i + 1]);
-                            placesFile = args[i + 1];
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-s":
-                        System.out.print("Sensors: ");
-                        if (!args[i + 1].startsWith("-") && Files.exists(Paths.get(args[i + 1])))
-                        {
-                            System.out.println(args[i + 1]);
-                            sensorsFile = args[i + 1];
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-a":
-                        System.out.print("Actuators: ");
-                        if (!args[i + 1].startsWith("-") && Files.exists(Paths.get(args[i + 1])))
-                        {
-                            System.out.println(args[i + 1]);
-                            actuatorsFile = args[i + 1];
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-alg":
-                        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "nasumicno");
-                        System.out.print("Algorithm: ");
-                        if (!args[i + 1].startsWith("-") && algorithms.contains(args[i + 1]))
-                        {
-                            System.out.println(args[i + 1]);
-                            algorithm = args[i + 1];
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-tcd":
-                        System.out.print("Cycle duration: ");
-                        if (args[i + 1].startsWith("-"))//sto ako je zadnji element
-                        {
-                            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
-                            cycleDuration = rng.dajSlucajniBroj(1, 17);
-                            System.out.println(cycleDuration);
-                        }
-                        else if (Integer.parseInt(args[i + 1]) == (int) Integer.parseInt(args[i + 1]))
-                        {
-                            System.out.println(args[i + 1]);
-                            cycleDuration = Integer.parseInt(args[i + 1]);
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-bcd":
-                        System.out.print("Number of cycles: ");
-                        if (args[i + 1].startsWith("-"))//sto ako je zadnji element
-                        {
-                            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
-                            nCycle = rng.dajSlucajniBroj(1, 23);
-                            System.out.println(nCycle);
-                        }
-                        else if (Integer.parseInt(args[i + 1]) == (int) Integer.parseInt(args[i + 1]))
-                        {
-                            System.out.println(args[i + 1]);
-                            nCycle = Integer.parseInt(args[i + 1]);
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-i":
-                        System.out.print("Output: ");
-                        if (args[i + 1].startsWith("-"))//sto ako je zadnji element
-                        {
-                            outputFile = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")).replace(" ", "_").replace("-", "").replace(":", "");
-                            System.out.println(outputFile);
-                        }
-                        else if (args[i + 1].endsWith(".txt"))
-                        {
-                            System.out.println(args[i + 1]);
-                            outputFile = args[i + 1];
-                        }
-                        else
-                        {
-                            System.out.print("Error!");
-                            hasError = true;
-                        }
-                        break;
-                    case "-brl":
-                        System.out.print("Output file buffer size: ");
-                        if (args[i + 1].startsWith("-"))//sto ako je zadnji element
-                        {
-                            RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
-                            outputBuffer = rng.dajSlucajniBroj(100, 999);
-                            System.out.println(outputBuffer);
-                        }
-                        else
-                        {
-                            int s = Integer.parseInt(args[i + 1]);
-                            if (s == (int) s)
-                            {
-                                outputBuffer = s;
-                                System.out.println(outputBuffer);
-                            }
-                            else
-                            {
-                                System.out.println("Error!");
-                                hasError = true;
-                            }
-                        }
-                        break;
-                }
-            }
-
-            if (hasError)
-            {
-                System.out.println("\nQuiting...");
-                System.exit(0);
-            }
-            else
-            {
-                System.out.println("\nArguments OK.");
-            }
+            System.out.println("\nArguments OK.");
         }
-        
+
         return new ValidArguments(seed, placesFile, sensorsFile, actuatorsFile, algorithm, cycleDuration, nCycle, outputFile, outputBuffer);
     }
 }

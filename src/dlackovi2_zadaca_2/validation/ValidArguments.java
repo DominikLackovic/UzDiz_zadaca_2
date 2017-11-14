@@ -11,7 +11,7 @@ package dlackovi2_zadaca_2.validation;
  */
 public class ValidArguments
 {
-    private int seed;
+    private long seed;
     private String placesFile;
     private String sensorsFile;
     private String actuatorsFile;
@@ -21,12 +21,12 @@ public class ValidArguments
     private String outputFile;
     private int outputBuffer;
 
-    public int getSeed()
+    public long getSeed()
     {
         return seed;
     }
 
-    public void setSeed(int seed)
+    public void setSeed(long seed)
     {
         this.seed = seed;
     }
@@ -111,7 +111,7 @@ public class ValidArguments
         this.outputBuffer = outputBuffer;
     }
 
-    public ValidArguments(int seed, String placesFile, String sensorsFile, String actuatorsFile, String algorithm, int cycleDuration, int nCycle, String outputFile, int outputBuffer)
+    public ValidArguments(long seed, String placesFile, String sensorsFile, String actuatorsFile, String algorithm, int cycleDuration, int nCycle, String outputFile, int outputBuffer)
     {
         this.seed = seed;
         this.placesFile = placesFile;
