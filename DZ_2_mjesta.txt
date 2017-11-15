@@ -1,4 +1,4 @@
-naziv;tip: 0 - vanjski, 1 - unutarnji;broj senzora;broj aktuatora
+﻿naziv;tip: 0 - vanjski, 1 - unutarnji;broj senzora;broj aktuatora
 FOI 1 - ulazna vrata;1;2;1
 FOI 1 - dvorišna vrata;1;2;1
 FOI 1 - parkiralište;0;3;1

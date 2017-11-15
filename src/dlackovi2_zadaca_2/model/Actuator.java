@@ -9,7 +9,7 @@ public class Actuator implements Cloneable, Device
     private int id;
     private String name;
     private int type;
-    private String kind;
+    private int kind;
     private float minValue;
     private float maxValue;
     private String comment;
@@ -19,7 +19,7 @@ public class Actuator implements Cloneable, Device
         
     }
 
-    public Actuator(String naziv, int tip, String vrsta, float minVrijednost, float maxVrijednost, String komentar)
+    public Actuator(String naziv, int tip, int vrsta, float minVrijednost, float maxVrijednost, String komentar)
     {
         this.name = naziv;
         this.type = tip;
@@ -59,12 +59,12 @@ public class Actuator implements Cloneable, Device
         this.type = type;
     }
 
-    public String getKind()
+    public int getKind()
     {
         return kind;
     }
 
-    public void setKind(String kind)
+    public void setKind(int kind)
     {
         this.kind = kind;
     }
@@ -104,6 +104,6 @@ public class Actuator implements Cloneable, Device
     @Override
     public Object clone() throws CloneNotSupportedException
     {
-        return this;
+        return super.clone();
     }
 }

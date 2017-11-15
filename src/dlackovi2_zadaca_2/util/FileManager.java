@@ -54,7 +54,6 @@ public class FileManager
             System.out.println(fileName);
             switch (type)
             {
-                //TODO provjera jel valja po zaglavlju fajla
                 case PLACE:
                     br.readLine();
                     while ((line = br.readLine()) != null)
@@ -67,7 +66,8 @@ public class FileManager
                         pla.setnActuators(Integer.valueOf(places[3]));
                         pla.setUsable(true);
                         
-                        data.add(pla);
+                        if(pla.getType() == 0 || pla.getType() == 1)   
+                            data.add(pla);
                     }
                     break;
                 case SENSOR:
@@ -78,15 +78,16 @@ public class FileManager
                         String[] sensors = line.split(delimiter);
                         sen.setName(sensors[0]);
                         sen.setType(Integer.valueOf(sensors[1]));
-                        sen.setKind(sensors[2]);
+                        sen.setKind(Integer.valueOf(sensors[2]));
                         sen.setMinValue(Float.valueOf(sensors[3]));
                         sen.setMaxValue(Float.valueOf(sensors[4]));
-                        if (sensors.length == 6)
+                        if (sensors.length >= 6)
                         {
                             sen.setComment(sensors[5]);
                         }
                         
-                        data.add(sen);
+                        if((sen.getType() >= 0 && sen.getType() <= 2) && (sen.getKind() >= 0 && sen.getKind() <= 3))  
+                            data.add(sen);
                     }
                     break;
                 case ACTUATOR:
@@ -97,15 +98,16 @@ public class FileManager
                         String[] actuators = line.split(delimiter);
                         act.setName(actuators[0]);
                         act.setType(Integer.valueOf(actuators[1]));
-                        act.setKind(actuators[2]);
+                        act.setKind(Integer.valueOf(actuators[2]));
                         act.setMinValue(Float.valueOf(actuators[3]));
                         act.setMaxValue(Float.valueOf(actuators[4]));
-                        if (actuators.length == 6)
+                        if (actuators.length >= 6)
                         {
                             act.setComment(actuators[5]);
                         }
 
-                        data.add(act);
+                        if((act.getType() >= 0 && act.getType() <= 2) && (act.getKind() >= 0 && act.getKind() <= 3))  
+                            data.add(act);
                     }
                     break;
                 default:

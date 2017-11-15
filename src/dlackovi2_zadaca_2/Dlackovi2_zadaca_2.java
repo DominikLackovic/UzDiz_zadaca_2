@@ -1,6 +1,7 @@
 package dlackovi2_zadaca_2;
 
 import dlackovi2_zadaca_2.model.Place;
+import dlackovi2_zadaca_2.model.Sensor;
 import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
 import dlackovi2_zadaca_2.util.FileManager;
 import dlackovi2_zadaca_2.util.FileType;
@@ -33,5 +34,10 @@ public class Dlackovi2_zadaca_2
         places = (List<Place>) (List<?>) fileManager.loadData(validArguments.getPlacesFile(), FileType.PLACE);
         for(Place p : places)
             System.out.println("Mjesto: " + p.getName());
+        
+        List<Sensor> sensors = null;
+        sensors = (List<Sensor>) (List<?>) fileManager.loadData(validArguments.getSensorsFile(), FileType.SENSOR);
+        for(Sensor p : sensors)
+            System.out.println("Mjesto: " + p.getComment());
     }
 }
