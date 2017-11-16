@@ -6,6 +6,11 @@ import dlackovi2_zadaca_2.model.Sensor;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,8 +20,11 @@ import java.util.List;
  */
 public class FileManager
 {
-
     private static volatile FileManager INSTANCE;
+    public static String outputFile;
+    public static int outputBuffer;
+    public static int outputBufferLength = 0;
+    public static String outputText = "";
 
     private FileManager()
     {
@@ -37,7 +45,7 @@ public class FileManager
         return INSTANCE;
     }
 
-    public List<Object> loadData(String fileName, FileType type) throws CloneNotSupportedException
+    public List<Object> importData(String fileName, FileType type) throws CloneNotSupportedException
     {
         List<Object> data = new ArrayList<>();
         Place placePrototype = new Place();
@@ -120,9 +128,46 @@ public class FileManager
 
         return data;
     }
-
-    public void exportData()
+    
+    public void exportData(String message) throws IOException
     {
+        this.outputBufferLength++;
+        this.outputText += message + System.lineSeparator();
+        
+        if(outputBufferLength == outputBuffer)
+        {
+            Path path = Paths.get(outputFile);
+            Files.write(path, (message + System.lineSeparator()).getBytes(StandardCharsets.UTF_8), StandardOpenOption.C‌​REATE, StandardOpenOp‌​tion.APPEND);
+        }
+    }
+    
+    public static int getOutputBufferLength()
+    {
+        return outputBufferLength;
+    }
 
+    public static void setOutputBufferLength(int outputBufferLength)
+    {
+        FileManager.outputBufferLength = outputBufferLength;
+    }
+
+    public static int getOutputBuffer()
+    {
+        return outputBuffer;
+    }
+
+    public static void setOutputBuffer(int outputBuffer)
+    {
+        FileManager.outputBuffer = outputBuffer;
+    }
+
+    public static String getOutputFile()
+    {
+        return outputFile;
+    }
+
+    public static void setOutputFile(String outputFile)
+    {
+        FileManager.outputFile = outputFile;
     }
 }
