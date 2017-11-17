@@ -18,13 +18,13 @@ public class NameRepository implements Container
     };
 
     @Override
-    public Iterator1 getIterator()
+    public Iterator getIterator()
     {
         return new NameIterator();
 
     }
 
-    private class NameIterator implements Iterator1
+    private class NameIterator implements Iterator
     {
 
         int index;

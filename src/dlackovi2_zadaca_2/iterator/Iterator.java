@@ -9,12 +9,10 @@ package dlackovi2_zadaca_2.iterator;
  *
  * @author foobar
  */
-public interface Iterator<E>
+public interface Iterator
 {
 
-    Boolean hasNext();
+    public boolean hasNext();
 
-    E next();
-
-    void remove();
+    public Object next();
 }

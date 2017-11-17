@@ -7,9 +7,9 @@ package dlackovi2_zadaca_2.iterator;
 
 /**
  *
- * @author foobar
+ * @author dlackovi2
  */
 public interface Container
 {
-    public Iterator1 getIterator();
+    public Iterator getIterator();
 }

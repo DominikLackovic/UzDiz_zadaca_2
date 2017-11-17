@@ -100,8 +100,6 @@ public class Place implements Cloneable
     {
         this.devices = devices;
     }
-
-    
     
     @Override
     public Object clone() throws CloneNotSupportedException
