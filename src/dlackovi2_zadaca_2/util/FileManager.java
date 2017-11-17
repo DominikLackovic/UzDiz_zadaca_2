@@ -76,6 +76,11 @@ public class FileManager
                         
                         if(pla.getType() == 0 || pla.getType() == 1)   
                             data.add(pla);
+                        else
+                        {
+                            exportData("Neispravno mjesto. Preskacem.");
+                            System.out.println("Neispravno mjesto. Preskacem.");
+                        }   
                     }
                     break;
                 case SENSOR:
@@ -131,13 +136,15 @@ public class FileManager
     
     public void exportData(String message) throws IOException
     {
-        this.outputBufferLength++;
-        this.outputText += message + System.lineSeparator();
+        outputBufferLength++;
+        outputText += message + System.lineSeparator();
         
         if(outputBufferLength == outputBuffer)
         {
             Path path = Paths.get(outputFile);
-            Files.write(path, (message + System.lineSeparator()).getBytes(StandardCharsets.UTF_8), StandardOpenOption.C‌​REATE, StandardOpenOp‌​tion.APPEND);
+            Files.write(path, (outputText + System.lineSeparator()).getBytes(StandardCharsets.UTF_8), StandardOpenOption.C‌​REATE, StandardOpenOp‌​tion.APPEND);
+            outputBufferLength = 0;
+            outputText = "";
         }
     }
     

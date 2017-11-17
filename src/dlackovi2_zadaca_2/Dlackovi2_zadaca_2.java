@@ -24,10 +24,11 @@ public class Dlackovi2_zadaca_2
     {
         ValidArguments validArguments = new ArgumentValidator().validate(args);
         FileManager fileManager = FileManager.getInstance();
-        fileManager.setOutputFile(validArguments.getOutputFile());
+        FileManager.setOutputFile(validArguments.getOutputFile());
+        FileManager.setOutputBuffer(validArguments.getOutputBuffer());
         fileManager.exportData("- LOG DATOTEKA- " + System.lineSeparator() + "---------------" + System.lineSeparator());  
                 
-        List<Place> places = null;
+        /*List<Place> places = null;
         places = (List<Place>) (List<?>) fileManager.importData(validArguments.getPlacesFile(), FileType.PLACE);
         for(Place p : places)
             System.out.println("Mjesto: " + p.getName());
@@ -35,7 +36,7 @@ public class Dlackovi2_zadaca_2
         List<Sensor> sensors = null;
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
         for(Sensor p : sensors)
-            System.out.println("Mjesto: " + p.getComment());
+            System.out.println("Mjesto: " + p.getComment());*/
         
         /*NameRepository namesRepository = new NameRepository();
         for (Iterator1 iter = namesRepository.getIterator(); iter.hasNext();)
@@ -44,6 +45,16 @@ public class Dlackovi2_zadaca_2
             System.out.println("Name : " + name);
         }*/
         
+        fileManager.exportData("1");
+        fileManager.exportData("2");
+        fileManager.exportData("3");
+        fileManager.exportData("4");
+        fileManager.exportData("5");
+        fileManager.exportData("6");
+        fileManager.exportData("7");
+        fileManager.exportData("8");
+        fileManager.exportData("9");
+        fileManager.exportData("10");
         
     }
 }
