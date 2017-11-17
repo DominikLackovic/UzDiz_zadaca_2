@@ -74,6 +74,20 @@ public class FileManager
                         pla.setnActuators(Integer.valueOf(places[3]));
                         pla.setUsable(true);
                         
+                        boolean placeExists = false;
+                        for(Object p : data)
+                        {
+                            if(((Place) p).getName().equals(pla.getName()))
+                            {
+                                exportData("Mjesto s imenom " + pla.getName() + " vec postoji. Preskacem.");
+                                System.out.println("Mjesto s imenom " + pla.getName() + " vec postoji. Preskacem.");
+                                placeExists = true;
+                            }
+                        }
+                        
+                        if(placeExists)
+                            continue;
+                        
                         if(pla.getType() == 0 || pla.getType() == 1)   
                             data.add(pla);
                         else

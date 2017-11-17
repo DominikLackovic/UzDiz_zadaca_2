@@ -21,7 +21,7 @@ import java.util.concurrent.ArrayBlockingQueue;
  */
 public class Dlackovi2_zadaca_2 implements Container
 {
-    static List<Place> places = null;
+    public static List<Place> places = null;
     /**
      * @param args the command line arguments
      */
