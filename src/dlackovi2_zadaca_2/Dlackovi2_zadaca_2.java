@@ -19,22 +19,25 @@ import java.util.concurrent.ArrayBlockingQueue;
  *
  * @author dlackovi2
  */
-public class Dlackovi2_zadaca_2 implements Container {
-
+public class Dlackovi2_zadaca_2 implements Container
+{
+    static List<Place> places = null;
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws ParseException, org.apache.commons.cli.ParseException, CloneNotSupportedException, IOException {
+    public static void main(String[] args) throws ParseException, org.apache.commons.cli.ParseException, CloneNotSupportedException, IOException
+    {
         ValidArguments validArguments = new ArgumentValidator().validate(args);
         FileManager fileManager = FileManager.getInstance();
         FileManager.setOutputFile(validArguments.getOutputFile());
         FileManager.setOutputBuffer(validArguments.getOutputBuffer());
         fileManager.exportData("- LOG DATOTEKA- " + System.lineSeparator() + "---------------" + System.lineSeparator());
 
-        List<Place> places = null;
         places = (List<Place>) (List<?>) fileManager.importData(validArguments.getPlacesFile(), FileType.PLACE);
-        for(Place p : places)
+        /*for (Place p : places)
+        {
             System.out.println("Mjesto: " + p.getName());
+        }*/
         /*
         List<Sensor> sensors = null;
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
@@ -46,46 +49,40 @@ public class Dlackovi2_zadaca_2 implements Container {
             String name = (String) iter.next();
             System.out.println("Name : " + name);
         }*/
+ 
+        for(Iterator iter = new PlaceIterator(); iter.hasNext();)
+        {
+            Place pl = (Place) iter.next();
+            System.out.println(pl.getName());
+        }
 
-        fileManager.exportData("1");
-        fileManager.exportData("2");
-        fileManager.exportData("3");
-        fileManager.exportData("4");
-        fileManager.exportData("5");
-        fileManager.exportData("6");
-        fileManager.exportData("7");
-        fileManager.exportData("8");
-        fileManager.exportData("9");
-        fileManager.exportData("10");
 
     }
 
     @Override
-    public Iterator getIterator() {
-        return new NameIterator();
+    public Iterator getIterator()
+    {
+        return new PlaceIterator();
     }
 
-    class NameIterator implements Iterator {
-
+    static class PlaceIterator implements Iterator
+    {
         int index;
 
         @Override
-        public boolean hasNext() {
-
-            if (index < places) {
+        public boolean hasNext()
+        {
+            if (index < places.size())
                 return true;
-            }
             return false;
         }
 
         @Override
-        public Object next() {
-
-            if (this.hasNext()) {
-                return names[index++];
-            }
+        public Object next()
+        {
+            if (this.hasNext())
+                return places.get(index++);
             return null;
         }
     }
-    }
-    
+}

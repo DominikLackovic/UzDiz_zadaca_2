@@ -101,6 +101,11 @@ public class FileManager
                         
                         if((sen.getType() >= 0 && sen.getType() <= 2) && (sen.getKind() >= 0 && sen.getKind() <= 3))  
                             data.add(sen);
+                        else
+                        {
+                            exportData("Neispravan senzor. Preskacem.");
+                            System.out.println("Neispravan senzor. Preskacem.");
+                        } 
                     }
                     break;
                 case ACTUATOR:
@@ -121,6 +126,11 @@ public class FileManager
 
                         if((act.getType() >= 0 && act.getType() <= 2) && (act.getKind() >= 0 && act.getKind() <= 3))  
                             data.add(act);
+                        else
+                        {
+                            exportData("Neispravan aktuator. Preskacem.");
+                            System.out.println("Neispravan aktuator. Preskacem.");
+                        } 
                     }
                     break;
                 default:

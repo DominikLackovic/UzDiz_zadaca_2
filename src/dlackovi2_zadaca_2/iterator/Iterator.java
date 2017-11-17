@@ -11,8 +11,6 @@ package dlackovi2_zadaca_2.iterator;
  */
 public interface Iterator
 {
-
     public boolean hasNext();
-
     public Object next();
 }
