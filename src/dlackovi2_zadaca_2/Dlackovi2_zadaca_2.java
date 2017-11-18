@@ -122,9 +122,19 @@ public class Dlackovi2_zadaca_2 implements Container
                 System.out.println("Status: " + device.getStatus());
             }
         }
+        /*
+        System.out.println("PROVJERA SLIJEDNO");
+        Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
+        algorithm.checkPlaces();
         
-        //Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
-        //algorithm.checkPlaces();
+        System.out.println("PROVJERA OBRNUTO");
+        algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", validArguments.getSeed());
+        algorithm.checkPlaces();
+        
+        System.out.println("PROVJERA RANDOM");
+        algorithm = new ConcreteAlgorithm().createAlgorithm("random", validArguments.getSeed());
+        algorithm.checkPlaces();*/
+        
     }
 
     
