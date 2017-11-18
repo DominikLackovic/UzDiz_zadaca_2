@@ -28,7 +28,7 @@ public class SlijednoAlgorithm  extends Algorithm
         {
             Place place = (Place) placeIterator.next();
             System.out.println("Provjera mjesta: " + place.getName() + " ID: " + place.getId());
-            DeviceStatusChecker.checkStatus(place.getDevices());
+            place.setDevices(DeviceStatusChecker.checkStatus(place.getDevices()));
         }
     }
     

@@ -157,7 +157,7 @@ public class Dlackovi2_zadaca_2 implements Container
         //ISPIS PRIDRUZENIH
         //TODO
 
-        /*System.out.println("PROVJERA SLIJEDNO");
+        System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
         algorithm.checkPlaces();
         
@@ -167,7 +167,7 @@ public class Dlackovi2_zadaca_2 implements Container
         
         System.out.println("PROVJERA RANDOM");
         algorithm = new ConcreteAlgorithm().createAlgorithm("random", validArguments.getSeed());
-        algorithm.checkPlaces();*/
+        algorithm.checkPlaces();
     }
 
     @Override

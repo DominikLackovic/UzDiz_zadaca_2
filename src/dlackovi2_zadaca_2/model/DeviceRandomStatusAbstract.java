@@ -22,7 +22,7 @@ public class DeviceRandomStatusAbstract implements Device
     {
         int randomNumber = rng.dajSlucajniBroj(0, 100);
 
-        if (randomNumber < 90)
+        if (randomNumber < 40)
         {
             numFails = 0;
             usable = true;
