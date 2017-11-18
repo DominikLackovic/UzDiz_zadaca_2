@@ -1,5 +1,8 @@
 package dlackovi2_zadaca_2;
 
+import dlackovi2_zadaca_2.algorithm.Algorithm;
+import dlackovi2_zadaca_2.algorithm.AlgorithmFactory;
+import dlackovi2_zadaca_2.algorithm.ConcreteAlgorithm;
 import dlackovi2_zadaca_2.iterator.Container;
 import dlackovi2_zadaca_2.iterator.Iterator;
 import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
@@ -108,9 +111,13 @@ public class Dlackovi2_zadaca_2 implements Container
             
             p.setDevices(devices);
         }
-
+        Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
+        algorithm.checkPlaces();
     }
 
+    
+    
+    
     @Override
     public Iterator getIterator()
     {

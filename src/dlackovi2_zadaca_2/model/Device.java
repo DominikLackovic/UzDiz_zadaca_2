@@ -11,5 +11,7 @@ package dlackovi2_zadaca_2.model;
  */
 public interface Device
 {
-    
+    public boolean checkStatus();
+    public int getNumFails();
+     public void setNumFails(int numFails);
 }

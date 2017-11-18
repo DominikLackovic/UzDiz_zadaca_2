@@ -14,4 +14,6 @@ public abstract class Algorithm
     public Algorithm()
     {
     }
+    
+    public abstract void checkPlaces();
 }

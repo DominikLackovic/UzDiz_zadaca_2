@@ -11,5 +11,10 @@ package dlackovi2_zadaca_2.algorithm;
  */
 public class ObrnutoAlgorithm  extends Algorithm
 {
+
+    @Override
+    public void checkPlaces() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

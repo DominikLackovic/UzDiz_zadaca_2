@@ -4,7 +4,7 @@ package dlackovi2_zadaca_2.model;
  *
  * @author dlackovi2
  */
-public class Actuator implements Cloneable, Device
+public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
 {
     private int id;
     private String name;
