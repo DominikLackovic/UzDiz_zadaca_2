@@ -2,6 +2,7 @@ package dlackovi2_zadaca_2;
 
 import dlackovi2_zadaca_2.iterator.Container;
 import dlackovi2_zadaca_2.iterator.Iterator;
+import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
 import dlackovi2_zadaca_2.util.FileManager;
@@ -22,6 +23,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class Dlackovi2_zadaca_2 implements Container
 {
     public static List<Place> places = null;
+    public static List<Sensor> sensors = null;
+    public static List<Actuator> actuators = null;
     /**
      * @param args the command line arguments
      */
@@ -31,30 +34,24 @@ public class Dlackovi2_zadaca_2 implements Container
         FileManager fileManager = FileManager.getInstance();
         FileManager.setOutputFile(validArguments.getOutputFile());
         FileManager.setOutputBuffer(validArguments.getOutputBuffer());
+        FileManager.setSeed(validArguments.getSeed());
         fileManager.exportData("- LOG DATOTEKA- " + System.lineSeparator() + "---------------" + System.lineSeparator());
 
         places = (List<Place>) (List<?>) fileManager.importData(validArguments.getPlacesFile(), FileType.PLACE);
-        /*for (Place p : places)
-        {
-            System.out.println("Mjesto: " + p.getName());
-        }*/
-        /*
-        List<Sensor> sensors = null;
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
-        for(Sensor p : sensors)
-            System.out.println("Mjesto: " + p.getComment());*/
- /*NameRepository namesRepository = new NameRepository();
-        for (Iterator1 iter = namesRepository.getIterator(); iter.hasNext();)
-        {
-            String name = (String) iter.next();
-            System.out.println("Name : " + name);
-        }*/
+        actuators = (List<Actuator>) (List<?>) fileManager.importData(validArguments.getActuatorsFile(), FileType.ACTUATOR);
+        
  
         for(Iterator iter = new PlaceIterator(); iter.hasNext();)
         {
             Place pl = (Place) iter.next();
-            System.out.println(pl.getName());
+            System.out.println(pl.getName() + " " + pl.getId());
         }
+        
+        /*for(Sensor s : sensors)
+            System.out.println(s.getName());
+        for(Actuator s : actuators)
+            System.out.println(s.getName());*/
 
 
     }

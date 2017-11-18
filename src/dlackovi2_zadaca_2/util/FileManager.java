@@ -3,6 +3,7 @@ package dlackovi2_zadaca_2.util;
 import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
+import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -25,6 +26,7 @@ public class FileManager
     public static int outputBuffer;
     public static int outputBufferLength = 0;
     public static String outputText = "";
+    public static long seed;
 
     private FileManager()
     {
@@ -51,6 +53,7 @@ public class FileManager
         Place placePrototype = new Place();
         Sensor sensorPrototype = new Sensor();
         Actuator actuatorPrototype = new Actuator();
+        RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
 
         BufferedReader br = null;
         String line = "";
@@ -73,6 +76,7 @@ public class FileManager
                         pla.setnSensors(Integer.valueOf(places[2]));
                         pla.setnActuators(Integer.valueOf(places[3]));
                         pla.setUsable(true);
+                        pla.setId(rng.dajJedinstveniBroj());
                         
                         boolean placeExists = false;
                         for(Object p : data)
@@ -212,5 +216,15 @@ public class FileManager
     public static void setOutputFile(String outputFile)
     {
         FileManager.outputFile = outputFile;
+    }
+
+    public static long getSeed()
+    {
+        return seed;
+    }
+
+    public static void setSeed(long seed)
+    {
+        FileManager.seed = seed;
     }
 }
