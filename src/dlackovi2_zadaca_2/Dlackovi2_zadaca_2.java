@@ -4,8 +4,10 @@ import dlackovi2_zadaca_2.iterator.Container;
 import dlackovi2_zadaca_2.iterator.Iterator;
 import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
 import dlackovi2_zadaca_2.model.Actuator;
+import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
+import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
 import dlackovi2_zadaca_2.util.FileManager;
 import dlackovi2_zadaca_2.util.FileType;
 import dlackovi2_zadaca_2.validation.ArgumentValidator;
@@ -42,6 +44,7 @@ public class Dlackovi2_zadaca_2 implements Container
         places = (List<Place>) (List<?>) fileManager.importData(validArguments.getPlacesFile(), FileType.PLACE);
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
         actuators = (List<Actuator>) (List<?>) fileManager.importData(validArguments.getActuatorsFile(), FileType.ACTUATOR);
+        RandomNumberGenerator rng = RandomNumberGenerator.getInstance(validArguments.getSeed());
         
         Iterator iter = new PlaceIterator();
         while( iter.hasNext())
@@ -59,21 +62,51 @@ public class Dlackovi2_zadaca_2 implements Container
         List<Sensor> sensors0 = sensors.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
         List<Sensor> sensors1 = sensors.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
         List<Sensor> sensors2 = sensors.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
-        
+
         List<Actuator> actuators0 = actuators.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
         List<Actuator> actuators1 = actuators.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
         List<Actuator> actuators2 = actuators.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
-        
-        for(Iterator iter = new PlaceIterator(); iter.hasNext();)
+      
+        for (Place p : places)
         {
-            Place pl = (Place) iter.next();
-            for(int i = 0; i < pl.getnSensors(); i++)
+            List<Device> devices = new ArrayList<Device>();
+            for (int i = 0; i < p.getnSensors(); i++)
             {
-                switch(pl.getType())
+                Sensor s;
+                switch (p.getType())
                 {
-                    //nastaviti
+                    case 0:
+                        s = sensors0.get(rng.dajSlucajniBroj(0, sensors0.size()));
+                        s.setId(rng.dajJedinstveniBroj());
+                        devices.add(s);
+                        break;
+                    case 1:
+                        s = sensors1.get(rng.dajSlucajniBroj(0, sensors1.size()));
+                        s.setId(rng.dajJedinstveniBroj());
+                        devices.add(s);
+                        break;
                 }
             }
+
+            for (int i = 0; i < p.getnActuators(); i++)
+            {
+                Actuator a;
+                switch (p.getType())
+                {
+                    case 0:
+                        a = actuators0.get(rng.dajSlucajniBroj(0, actuators0.size()));
+                        a.setId(rng.dajJedinstveniBroj());
+                        devices.add(a);
+                        break;
+                    case 1:
+                        a = actuators1.get(rng.dajSlucajniBroj(0, actuators1.size()));
+                        a.setId(rng.dajJedinstveniBroj());
+                        devices.add(a);
+                        break;
+                }
+            }
+            
+            p.setDevices(devices);
         }
 
     }
