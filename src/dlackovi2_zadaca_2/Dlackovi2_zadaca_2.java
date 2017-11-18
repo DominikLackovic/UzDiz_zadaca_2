@@ -29,9 +29,11 @@ import java.util.stream.Collectors;
  */
 public class Dlackovi2_zadaca_2 implements Container
 {
+
     public static List<Place> places = null;
     public static List<Sensor> sensors = null;
     public static List<Actuator> actuators = null;
+
     /**
      * @param args the command line arguments
      */
@@ -48,19 +50,18 @@ public class Dlackovi2_zadaca_2 implements Container
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
         actuators = (List<Actuator>) (List<?>) fileManager.importData(validArguments.getActuatorsFile(), FileType.ACTUATOR);
         RandomNumberGenerator rng = RandomNumberGenerator.getInstance(validArguments.getSeed());
-        
+
         Iterator iter = new PlaceIterator();
         /*while( iter.hasNext())
         {
             Place pl = (Place) iter.next();
             System.out.println(pl.getName() + " " + pl.getId());
         }*/
-        
-        /*for(Sensor s : sensors)
+
+ /*for(Sensor s : sensors)
             System.out.println(s.getName());
         for(Actuator s : actuators)
             System.out.println(s.getName());*/
-        
         //pridruzivanje uređaja mjestima
         List<Sensor> sensors0 = sensors.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
         List<Sensor> sensors1 = sensors.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
@@ -69,7 +70,7 @@ public class Dlackovi2_zadaca_2 implements Container
         List<Actuator> actuators0 = actuators.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
         List<Actuator> actuators1 = actuators.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
         List<Actuator> actuators2 = actuators.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
-      
+
         for (Place p : places)
         {
             List<Device> devices = new ArrayList<Device>();
@@ -108,22 +109,55 @@ public class Dlackovi2_zadaca_2 implements Container
                         break;
                 }
             }
-            
+
             p.setDevices(devices);
         }
-        
-        //INICIJALIZACIJA SUSTAVA
-        while(iter.hasNext())
+
+        //INICIJALIZACIJA SUSTAVA - provjera statusa
+        while (iter.hasNext())
         {
             Place place = (Place) iter.next();
-            for(Device device : place.getDevices())
+            for (Device device : place.getDevices())
             {
                 device.checkStatus();
-                System.out.println("Status: " + device.getStatus());
+                //System.out.println("Status: " + device.getStatus());
             }
         }
-        /*
-        System.out.println("PROVJERA SLIJEDNO");
+
+        //PRIDRUZIVANJE SENZORA AKTUATORIMA
+        Iterator iter2 = new PlaceIterator();
+        while (iter2.hasNext())
+        {
+            Place place = (Place) iter2.next();
+            List<Device> devicesInsidePlace = place.getDevices();
+            List<Sensor> activeSensors = (List<Sensor>) (List<?>) devicesInsidePlace.stream().filter(p -> p.getClass().getTypeName().endsWith("Sensor") && p.getStatus() == true).collect(Collectors.toList());
+            List<Actuator> activeActuators = (List<Actuator>) (List<?>) devicesInsidePlace.stream().filter(p -> p.getClass().getTypeName().endsWith("Actuator") && p.getStatus() == true).collect(Collectors.toList());
+            
+            if (activeSensors.size() > 0)
+            {
+                for (Device device : devicesInsidePlace)
+                {
+                    if (device instanceof Actuator)
+                    {
+                        Actuator act = (Actuator) device;
+                        if (act.getStatus())
+                        {
+                            List<Sensor> tempSensors = new ArrayList<>();
+                            for (int i = 0; i < rng.dajSlucajniBroj(1, activeSensors.size()); i++)
+                            {
+                                tempSensors.add(activeSensors.get(rng.dajSlucajniBroj(0, activeSensors.size())));
+                            }
+                            act.setAttachedSensors(tempSensors);
+                        }
+                    }
+                }
+            }
+        }
+        
+        //ISPIS PRIDRUZENIH
+        //TODO
+
+        /*System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
         algorithm.checkPlaces();
         
@@ -134,19 +168,15 @@ public class Dlackovi2_zadaca_2 implements Container
         System.out.println("PROVJERA RANDOM");
         algorithm = new ConcreteAlgorithm().createAlgorithm("random", validArguments.getSeed());
         algorithm.checkPlaces();*/
-        
     }
 
-    
-    
-    
     @Override
     public Iterator getIterator()
     {
         return new PlaceIterator();
     }
 
-   /* static class PlaceIterator implements Iterator
+    /* static class PlaceIterator implements Iterator
     {
         int index;
 

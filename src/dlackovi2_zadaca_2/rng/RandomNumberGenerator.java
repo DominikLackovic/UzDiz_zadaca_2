@@ -38,7 +38,10 @@ public class RandomNumberGenerator
     //[odBroja, doBroja>
     public int dajSlucajniBroj(int odBroja, int doBroja)
     {
-        return rand.nextInt(doBroja - odBroja) + odBroja;
+        if(odBroja == 1 && doBroja == 1)
+            return 1;
+        else
+            return rand.nextInt(doBroja - odBroja) + odBroja;
     }
     
     //[odBroja, doBroja>

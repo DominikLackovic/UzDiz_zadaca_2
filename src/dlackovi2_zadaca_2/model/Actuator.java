@@ -1,5 +1,8 @@
 package dlackovi2_zadaca_2.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author dlackovi2
@@ -13,6 +16,7 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
     private float minValue;
     private float maxValue;
     private String comment;
+    private List<Sensor> attachedSensors = new ArrayList<>();
     
     public Actuator()
     {
@@ -99,7 +103,15 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
         this.comment = comment;
     }
 
-    
+    public List<Sensor> getAttachedSensors()
+    {
+        return attachedSensors;
+    }
+
+    public void setAttachedSensors(List<Sensor> attachedSensors)
+    {
+        this.attachedSensors = attachedSensors;
+    }
     
     @Override
     public Object clone() throws CloneNotSupportedException
