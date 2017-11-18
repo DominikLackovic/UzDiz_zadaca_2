@@ -12,7 +12,7 @@ public class RandomNumberGenerator
 {
     private static volatile RandomNumberGenerator INSTANCE;
     private Random rand;
-    private List<Integer> randomNumbers = new ArrayList<>();
+    private List<Integer> randomNumbersPlace = new ArrayList<>();
 
     private RandomNumberGenerator()
     {
@@ -52,9 +52,9 @@ public class RandomNumberGenerator
         while(true)
         {
             Integer i = dajSlucajniBroj(1, 1000);
-            if(!randomNumbers.contains(i))
+            if(!randomNumbersPlace.contains(i))
             {
-                randomNumbers.add(i);
+                randomNumbersPlace.add(i);
                 return i;
             }
         }
