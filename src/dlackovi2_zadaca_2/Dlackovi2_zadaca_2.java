@@ -2,6 +2,7 @@ package dlackovi2_zadaca_2;
 
 import dlackovi2_zadaca_2.iterator.Container;
 import dlackovi2_zadaca_2.iterator.Iterator;
+import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
 import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
@@ -41,8 +42,8 @@ public class Dlackovi2_zadaca_2 implements Container
         sensors = (List<Sensor>) (List<?>) fileManager.importData(validArguments.getSensorsFile(), FileType.SENSOR);
         actuators = (List<Actuator>) (List<?>) fileManager.importData(validArguments.getActuatorsFile(), FileType.ACTUATOR);
         
- 
-        for(Iterator iter = new PlaceIterator(); iter.hasNext();)
+        Iterator iter = new PlaceIterator();
+        while( iter.hasNext())
         {
             Place pl = (Place) iter.next();
             System.out.println(pl.getName() + " " + pl.getId());
@@ -62,7 +63,7 @@ public class Dlackovi2_zadaca_2 implements Container
         return new PlaceIterator();
     }
 
-    static class PlaceIterator implements Iterator
+   /* static class PlaceIterator implements Iterator
     {
         int index;
 
@@ -81,5 +82,5 @@ public class Dlackovi2_zadaca_2 implements Container
                 return places.get(index++);
             return null;
         }
-    }
+    }*/
 }
