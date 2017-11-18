@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -52,7 +53,27 @@ public class Dlackovi2_zadaca_2 implements Container
             System.out.println(s.getName());
         for(Actuator s : actuators)
             System.out.println(s.getName());*/
-
+        
+        //pridruzivanje uređaja mjestima
+        List<Sensor> sensors0 = sensors.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
+        List<Sensor> sensors1 = sensors.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
+        List<Sensor> sensors2 = sensors.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
+        
+        List<Actuator> actuators0 = actuators.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
+        List<Actuator> actuators1 = actuators.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
+        List<Actuator> actuators2 = actuators.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
+        
+        for(Iterator iter = new PlaceIterator(); iter.hasNext();)
+        {
+            Place pl = (Place) iter.next();
+            for(int i = 0; i < pl.getnSensors(); i++)
+            {
+                switch(pl.getType())
+                {
+                    //nastaviti
+                }
+            }
+        }
 
     }
 

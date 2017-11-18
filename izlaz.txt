@@ -38,3 +38,55 @@ Senzor smjer vjetrauspjesno dodan.
 Aktuator otvaranje/zatvaranje vratauspjesno dodan.
 Aktuator dizanje/spuštanje rampeuspjesno dodan.
 
+- LOG DATOTEKA- 
+---------------
+
+Mjesto FOI 1 - ulazna vratauspjesno dodano.
+Mjesto FOI 1 - dvorišna vratauspjesno dodano.
+Mjesto FOI 1 - parkirališteuspjesno dodano.
+Mjesto FOI 1 - vijećnicauspjesno dodano.
+
+Mjesto FOI 1 - knjižnicauspjesno dodano.
+Mjesto FOI 1 - dvorana 1uspjesno dodano.
+Mjesto FOI 1 - restoranuspjesno dodano.
+Mjesto FOI 1 - sistem salauspjesno dodano.
+Senzor vanjska temperaturauspjesno dodan.
+
+Senzor unutarnja temperaturauspjesno dodan.
+Senzor vlagauspjesno dodan.
+Senzor dimuspjesno dodan.
+Senzor preprekauspjesno dodan.
+Senzor svjetlouspjesno dodan.
+
+Senzor kontaktuspjesno dodan.
+Senzor vjetaruspjesno dodan.
+Senzor smjer vjetrauspjesno dodan.
+Aktuator otvaranje/zatvaranje vratauspjesno dodan.
+Aktuator dizanje/spuštanje rampeuspjesno dodan.
+
+- LOG DATOTEKA- 
+---------------
+
+Mjesto FOI 1 - ulazna vratauspjesno dodano.
+Mjesto FOI 1 - dvorišna vratauspjesno dodano.
+Mjesto FOI 1 - parkirališteuspjesno dodano.
+Mjesto FOI 1 - vijećnicauspjesno dodano.
+
+Mjesto FOI 1 - knjižnicauspjesno dodano.
+Mjesto FOI 1 - dvorana 1uspjesno dodano.
+Mjesto FOI 1 - restoranuspjesno dodano.
+Mjesto FOI 1 - sistem salauspjesno dodano.
+Senzor vanjska temperaturauspjesno dodan.
+
+Senzor unutarnja temperaturauspjesno dodan.
+Senzor vlagauspjesno dodan.
+Senzor dimuspjesno dodan.
+Senzor preprekauspjesno dodan.
+Senzor svjetlouspjesno dodan.
+
+Senzor kontaktuspjesno dodan.
+Senzor vjetaruspjesno dodan.
+Senzor smjer vjetrauspjesno dodan.
+Aktuator otvaranje/zatvaranje vratauspjesno dodan.
+Aktuator dizanje/spuštanje rampeuspjesno dodan.
+
