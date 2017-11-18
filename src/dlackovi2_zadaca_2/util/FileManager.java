@@ -95,8 +95,8 @@ public class FileManager
                         if(pla.getType() == 0 || pla.getType() == 1) 
                         {
                             data.add(pla);
-                            exportData("Mjesto " + pla.getName() + "uspjesno dodano.");
-                            System.out.println("Mjesto " + pla.getName() + "uspjesno dodano.");
+                            exportData("Mjesto " + pla.getName() + " uspjesno dodano.");
+                            System.out.println("Mjesto " + pla.getName() + " uspjesno dodano.");
                         }
                         else
                         {
@@ -123,8 +123,8 @@ public class FileManager
                         
                         if((sen.getType() >= 0 && sen.getType() <= 2) && (sen.getKind() >= 0 && sen.getKind() <= 3)) 
                         {
-                            exportData("Senzor " + sen.getName() + "uspjesno dodan.");
-                            System.out.println("Senzor " + sen.getName() + "uspjesno dodan.");
+                            exportData("Senzor " + sen.getName() + " uspjesno dodan.");
+                            System.out.println("Senzor " + sen.getName() + " uspjesno dodan.");
                             data.add(sen);
                         }                    
                         else
@@ -152,8 +152,8 @@ public class FileManager
 
                         if((act.getType() >= 0 && act.getType() <= 2) && (act.getKind() >= 0 && act.getKind() <= 3))  
                         {
-                            exportData("Aktuator " + act.getName() + "uspjesno dodan.");
-                            System.out.println("Aktuator " + act.getName() + "uspjesno dodan.");
+                            exportData("Aktuator " + act.getName() + " uspjesno dodan.");
+                            System.out.println("Aktuator " + act.getName() + " uspjesno dodan.");
                             data.add(act);
                         }    
                         else

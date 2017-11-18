@@ -50,11 +50,11 @@ public class Dlackovi2_zadaca_2 implements Container
         RandomNumberGenerator rng = RandomNumberGenerator.getInstance(validArguments.getSeed());
         
         Iterator iter = new PlaceIterator();
-        while( iter.hasNext())
+        /*while( iter.hasNext())
         {
             Place pl = (Place) iter.next();
             System.out.println(pl.getName() + " " + pl.getId());
-        }
+        }*/
         
         /*for(Sensor s : sensors)
             System.out.println(s.getName());
@@ -111,8 +111,20 @@ public class Dlackovi2_zadaca_2 implements Container
             
             p.setDevices(devices);
         }
-        Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
-        algorithm.checkPlaces();
+        
+        //INICIJALIZACIJA SUSTAVA
+        while(iter.hasNext())
+        {
+            Place place = (Place) iter.next();
+            for(Device device : place.getDevices())
+            {
+                device.checkStatus();
+                System.out.println("Status: " + device.getStatus());
+            }
+        }
+        
+        //Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
+        //algorithm.checkPlaces();
     }
 
     

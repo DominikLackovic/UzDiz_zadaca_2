@@ -9,33 +9,48 @@ import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
 
 /**
  *
- * @author d.horvat
+ * @author dlackovi2
  */
-public class DeviceRandomStatusAbstract implements Device{
-    int numFails = 0;
+public class DeviceRandomStatusAbstract implements Device
+{
+    private int numFails = 0;
+    private boolean usable;
     RandomNumberGenerator rng = RandomNumberGenerator.getInstance(958);
+
     @Override
-    public boolean checkStatus() {
-        
-        int random = rng.dajSlucajniBroj(0, 100);
-        
-        if(random < 30)
+    public boolean checkStatus()
+    {
+        int randomNumber = rng.dajSlucajniBroj(0, 100);
+
+        if (randomNumber < 90)
         {
             numFails = 0;
+            usable = true;
             return true;
         }
-        numFails++;
-        return false;
+        else
+        {
+            numFails++;
+            usable = false;
+            return false;
+        }
     }
 
     @Override
-    public int getNumFails() {
+    public int getNumFails()
+    {
         return numFails;
     }
 
-    public void setNumFails(int numFails) {
+    @Override
+    public void setNumFails(int numFails)
+    {
         this.numFails = numFails;
     }
-    
-    
+
+    @Override
+    public boolean getStatus()
+    {
+        return usable;
+    }
 }

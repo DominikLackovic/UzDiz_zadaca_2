@@ -13,5 +13,6 @@ public interface Device
 {
     public boolean checkStatus();
     public int getNumFails();
-     public void setNumFails(int numFails);
+    public void setNumFails(int numFails);
+    public boolean getStatus();
 }
