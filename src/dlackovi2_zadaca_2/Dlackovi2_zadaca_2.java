@@ -11,6 +11,7 @@ import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
 import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
+import dlackovi2_zadaca_2.thread.RadnaDretva;
 import dlackovi2_zadaca_2.util.FileManager;
 import dlackovi2_zadaca_2.util.FileType;
 import dlackovi2_zadaca_2.validation.ArgumentValidator;
@@ -156,8 +157,11 @@ public class Dlackovi2_zadaca_2 implements Container
         
         //ISPIS PRIDRUZENIH
         //TODO
-
-        System.out.println("PROVJERA SLIJEDNO");
+        
+        RadnaDretva dretva = new RadnaDretva((int) validArguments.getSeed());
+        dretva.start();
+        
+        /*System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
         algorithm.checkPlaces();
         
@@ -167,7 +171,7 @@ public class Dlackovi2_zadaca_2 implements Container
         
         System.out.println("PROVJERA RANDOM");
         algorithm = new ConcreteAlgorithm().createAlgorithm("random", validArguments.getSeed());
-        algorithm.checkPlaces();
+        algorithm.checkPlaces();*/
     }
 
     @Override
