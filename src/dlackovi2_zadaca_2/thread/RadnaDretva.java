@@ -7,6 +7,12 @@ package dlackovi2_zadaca_2.thread;
 
 import dlackovi2_zadaca_2.algorithm.Algorithm;
 import dlackovi2_zadaca_2.algorithm.ConcreteAlgorithm;
+import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
+import dlackovi2_zadaca_2.model.Actuator;
+import dlackovi2_zadaca_2.model.Device;
+import dlackovi2_zadaca_2.model.Place;
+import dlackovi2_zadaca_2.model.Sensor;
+import java.util.List;
 
 /**
  *
@@ -14,9 +20,9 @@ import dlackovi2_zadaca_2.algorithm.ConcreteAlgorithm;
  */
 public class RadnaDretva extends Thread{
 
-    private int seed;
+    private long seed;
     
-    public RadnaDretva(int seed)
+    public RadnaDretva(long seed)
     {
         this.seed = seed;
     }
@@ -28,17 +34,23 @@ public class RadnaDretva extends Thread{
 
     @Override
     public void run() {
+        //TODO Odabir algoritma iz parametara
         System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", seed);
         algorithm.checkPlaces();
-        
-        System.out.println("PROVJERA OBRNUTO");
+        PlaceIterator iterator = new PlaceIterator();
+        while(iterator.hasNext())
+        {
+            Place place = (Place) iterator.next();
+            checkDevicesValues(place.getDevices());
+        }
+        /*System.out.println("PROVJERA OBRNUTO");
         algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", seed);
         algorithm.checkPlaces();
         
         System.out.println("PROVJERA RANDOM");
         algorithm = new ConcreteAlgorithm().createAlgorithm("random", seed);
-        algorithm.checkPlaces();
+        algorithm.checkPlaces();*/
     }
 
     @Override
@@ -47,4 +59,48 @@ public class RadnaDretva extends Thread{
         super.start(); //To change body of generated methods, choose Tools | Templates.
     }
     
+    public void checkDevicesValues(List<Device> devices){
+        for (Device device : devices) {
+            if(device instanceof Sensor)
+            {
+                Sensor sensor = (Sensor) device;
+                System.out.println("== OČITANJE == Sensor: " + sensor.getName() + " Stanje: " + sensor.getValue());
+                switch(sensor.getKind()){
+                        case 0:
+                            break;
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            if(sensor.getValue() == 1)
+                                sensor.setValue(0);
+                            else
+                                sensor.setValue(1);
+                            break;
+                            
+                }
+            }
+            else if(device instanceof Actuator)
+            {
+                Actuator actuator = (Actuator) device;
+                System.out.println("== OČITANJE == Aktuator: " + actuator.getName() + " Stanje: " + actuator.getValue());
+                switch(actuator.getKind()){
+                        case 0:
+                            break;
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            if(actuator.getValue() == 1)
+                                actuator.setValue(0);
+                            else
+                                actuator.setValue(1);
+                            break;
+                            
+                }
+            }
+        }
+    }
 }

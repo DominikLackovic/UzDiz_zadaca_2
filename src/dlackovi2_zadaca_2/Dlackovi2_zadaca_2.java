@@ -158,7 +158,7 @@ public class Dlackovi2_zadaca_2 implements Container
         //ISPIS PRIDRUZENIH
         //TODO
         
-        RadnaDretva dretva = new RadnaDretva((int) validArguments.getSeed());
+        RadnaDretva dretva = new RadnaDretva(validArguments.getSeed());
         dretva.start();
         
         /*System.out.println("PROVJERA SLIJEDNO");

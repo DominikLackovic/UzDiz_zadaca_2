@@ -17,6 +17,7 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
     private float maxValue;
     private String comment;
     private List<Sensor> attachedSensors = new ArrayList<>();
+    private float value;
     
     public Actuator()
     {
@@ -31,6 +32,7 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
         this.minValue = minVrijednost;
         this.maxValue = maxVrijednost;
         this.comment = komentar;
+        value = minVrijednost;
     }
 
     public int getId()
@@ -68,6 +70,14 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
         return kind;
     }
 
+    public float getValue() {
+        return value;
+    }
+
+    public void setValue(float value) {
+        this.value = value;
+    }
+    
     public void setKind(int kind)
     {
         this.kind = kind;

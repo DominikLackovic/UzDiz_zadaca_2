@@ -13,6 +13,7 @@ public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
     private float minValue;
     private float maxValue;
     private String comment;
+    private float value;
     
     public Sensor()
     {
@@ -27,6 +28,7 @@ public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
         this.minValue = minVrijednost;
         this.maxValue = maxVrijednost;
         this.comment = komentar;
+        value = minVrijednost;
     }
 
     public int getId()
@@ -44,6 +46,14 @@ public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
         return name;
     }
 
+    public float getValue() {
+        return value;
+    }
+
+    public void setValue(float value) {
+        this.value = value;
+    }
+    
     public void setName(String name)
     {
         this.name = name;
