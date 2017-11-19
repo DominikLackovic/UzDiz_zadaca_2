@@ -12,7 +12,11 @@ import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
+import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
+import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -21,36 +25,69 @@ import java.util.List;
 public class RadnaDretva extends Thread{
 
     private long seed;
+    int maxCiklusa = 0;
+    int trajanjeCiklusa = 0;
+    int rbCiklusa = 0;
+    private boolean stop = false;
     
-    public RadnaDretva(long seed)
+    public RadnaDretva(long seed, int maxCiklusa, int trajanjeCiklusa)
     {
+        this.maxCiklusa = maxCiklusa;
+        this.trajanjeCiklusa = trajanjeCiklusa;
         this.seed = seed;
+        
+        RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
+        if(this.maxCiklusa == 0)
+            this.maxCiklusa = rng.dajSlucajniBroj(1, 23);
+        if(this.trajanjeCiklusa == 0)
+            this.trajanjeCiklusa = rng.dajSlucajniBroj(1, 17);
+            
     }
     
     @Override
     public void interrupt() {
+        stop = true;
         super.interrupt(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public void run() {
-        //TODO Odabir algoritma iz parametara
-        System.out.println("PROVJERA SLIJEDNO");
-        Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", seed);
-        algorithm.checkPlaces();
-        PlaceIterator iterator = new PlaceIterator();
-        while(iterator.hasNext())
-        {
-            Place place = (Place) iterator.next();
-            checkDevicesValues(place.getDevices());
-        }
-        /*System.out.println("PROVJERA OBRNUTO");
-        algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", seed);
-        algorithm.checkPlaces();
         
-        System.out.println("PROVJERA RANDOM");
-        algorithm = new ConcreteAlgorithm().createAlgorithm("random", seed);
-        algorithm.checkPlaces();*/
+        while(!stop){
+            Date pocetakObrade = new Date();
+            rbCiklusa++;
+            System.out.println("Redni broj ciklusa: " + rbCiklusa);
+            //TODO Odabir algoritma iz parametara
+            System.out.println("PROVJERA SLIJEDNO");
+            Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", seed);
+            algorithm.checkPlaces();
+            
+            /*System.out.println("PROVJERA OBRNUTO");
+            algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", seed);
+            algorithm.checkPlaces();
+
+            System.out.println("PROVJERA RANDOM");
+            algorithm = new ConcreteAlgorithm().createAlgorithm("random", seed);
+            algorithm.checkPlaces();*/
+            
+            PlaceIterator iterator = new PlaceIterator();
+            while(iterator.hasNext())
+            {
+                Place place = (Place) iterator.next();
+                checkDevicesValues(place.getDevices());
+            }
+            Date krajObrade = new Date();
+            long trajanjeObrade = krajObrade.getTime() - (pocetakObrade.getTime() - 1);
+            if (trajanjeObrade < 0) 
+                    trajanjeObrade = 0;
+            try {
+                sleep((trajanjeCiklusa*1000) - trajanjeObrade);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(RadnaDretva.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            if(rbCiklusa > maxCiklusa)
+                stop = true;
+        }
     }
 
     @Override

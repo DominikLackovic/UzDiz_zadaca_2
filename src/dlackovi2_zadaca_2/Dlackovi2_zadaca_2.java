@@ -171,8 +171,8 @@ public class Dlackovi2_zadaca_2 implements Container
         //fileManager.exportData(sensorsToActuators);
         //fileManager.exportData(actuatorsToSensors);
 
-        //RadnaDretva dretva = new RadnaDretva(validArguments.getSeed());
-        //dretva.start();
+        RadnaDretva dretva = new RadnaDretva(validArguments.getSeed(), validArguments.getnCycle(), validArguments.getCycleDuration());
+        dretva.start();
 
         /*System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
