@@ -1,15 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dlackovi2_zadaca_2.Visitor;
+
+import dlackovi2_zadaca_2.model.Actuator;
+import dlackovi2_zadaca_2.model.Place;
+import dlackovi2_zadaca_2.model.Sensor;
 
 /**
  *
- * @author foobar
+ * @author dlackovi2
  */
 public interface Visitor
 {
-    public void visit(/*Tip objekt*/);
+    public void visit(Place place);
+    public void visit(Sensor sensor);
+    public void visit(Actuator actuator);
 }
