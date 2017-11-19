@@ -1,36 +1,49 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dlackovi2_zadaca_2.algorithm;
 
-import dlackovi2_zadaca_2.algorithm.util.DeviceStatusChecker;
-import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
+import dlackovi2_zadaca_2.iterator.PlaceIterator;
 import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
+import dlackovi2_zadaca_2.util.FileManager;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
- * @author foobar
+ * @author dlackovi2
  */
-public class SlijednoAlgorithm  extends Algorithm
+public class SlijednoAlgorithm extends Algorithm
 {
+    private FileManager fileManager = FileManager.getInstance();
     private PlaceIterator placeIterator = new PlaceIterator();
 
     @Override
-    public void checkPlaces() {
-        while(placeIterator.hasNext())
+    public void checkPlaces()
+    {
+        while (placeIterator.hasNext())
         {
             Place place = (Place) placeIterator.next();
-            System.out.println("Provjera mjesta: " + place.getName() + " ID: " + place.getId());
-            place.setDevices(DeviceStatusChecker.checkStatus(place.getDevices()));
+            System.out.println("Provjeravam mjesto: " + place.getName() + "\n-------------------");
+            try
+            {
+                fileManager.exportData("Provjeravam mjesto: " + place.getName() + System.lineSeparator() + "-------------------");
+            }
+            catch (IOException ex)
+            {
+                Logger.getLogger(ObrnutoAlgorithm.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            try
+            {
+                place.setDevices(DeviceStatusChecker.checkStatus(place.getDevices()));
+            }
+            catch (IOException ex)
+            {
+                Logger.getLogger(SlijednoAlgorithm.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
-    
-    
 }

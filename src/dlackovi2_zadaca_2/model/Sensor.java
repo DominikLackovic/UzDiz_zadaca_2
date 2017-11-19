@@ -4,7 +4,7 @@ package dlackovi2_zadaca_2.model;
  *
  * @author dlackovi2
  */
-public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
+public class Sensor extends DeviceRandomStatus implements Cloneable
 {
     private int id;
     private String name;

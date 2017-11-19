@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author dlackovi2
  */
-public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
+public class Actuator extends DeviceRandomStatus implements Cloneable
 {
     private int id;
     private String name;

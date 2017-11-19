@@ -54,11 +54,11 @@ public class RandomNumberGenerator
     {
         while(true)
         {
-            Integer i = dajSlucajniBroj(1, 1000);
-            if(!randomNumbersPlace.contains(i))
+            Integer number = dajSlucajniBroj(1, 1000);
+            if(!randomNumbersPlace.contains(number))
             {
-                randomNumbersPlace.add(i);
-                return i;
+                randomNumbersPlace.add(number);
+                return number;
             }
         }
     }

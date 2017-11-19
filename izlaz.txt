@@ -2,673 +2,1586 @@
 ---------------
 
 Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
+Mjesto FOI 1 - dvoriĹˇna vrata uspjesno dodano.
+Mjesto FOI 1 - parkiraliĹˇte uspjesno dodano.
+Mjesto FOI 1 - vijeÄ‡nica uspjesno dodano.
+Mjesto FOI 1 - knjiĹľnica uspjesno dodano.
 Mjesto FOI 1 - dvorana 1 uspjesno dodano.
 Mjesto FOI 1 - restoran uspjesno dodano.
 Mjesto FOI 1 - sistem sala uspjesno dodano.
 Senzor vanjska temperatura uspjesno dodan.
-
 Senzor unutarnja temperatura uspjesno dodan.
 Senzor vlaga uspjesno dodan.
 Senzor dim uspjesno dodan.
 Senzor prepreka uspjesno dodan.
 Senzor svjetlo uspjesno dodan.
-
 Senzor kontakt uspjesno dodan.
 Senzor vjetar uspjesno dodan.
 Senzor smjer vjetra uspjesno dodan.
 Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
+Aktuator dizanje/spuĹˇtanje rampe uspjesno dodan.
+Aktuator dizanje/spuĹˇtanje platna za ploÄŤu uspjesno dodan.
+Aktuator dizanje/spuĹˇtanje televizora uspjesno dodan.
 Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
+Aktuator paljenje/gaĹˇenje lampe uspjesno dodan.
 
 - PRIDRUZIVANJE SENZORA AKTUATORIMA -
 -------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje rampe pridruzen je senzor: vjetar
-
-Senzor vjetar pridruzen je aktuatoru: dizanje/spuštanje rampe
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje televizora
-Aktuatoru dizanje/spuštanje televizora pridruzen je senzor: unutarnja temperatura
-Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuštanje televizora
-
-- LOG DATOTEKA- 
----------------
-
-Mjesto FOI 1 - ulazna vrata uspjesno dodano.
-Mjesto FOI 1 - dvorišna vrata uspjesno dodano.
-Mjesto FOI 1 - parkiralište uspjesno dodano.
-Mjesto FOI 1 - vijećnica uspjesno dodano.
-
-Mjesto FOI 1 - knjižnica uspjesno dodano.
-Mjesto FOI 1 - dvorana 1 uspjesno dodano.
-Mjesto FOI 1 - restoran uspjesno dodano.
-Mjesto FOI 1 - sistem sala uspjesno dodano.
-Senzor vanjska temperatura uspjesno dodan.
-
-Senzor unutarnja temperatura uspjesno dodan.
-Senzor vlaga uspjesno dodan.
-Senzor dim uspjesno dodan.
-Senzor prepreka uspjesno dodan.
-Senzor svjetlo uspjesno dodan.
-
-Senzor kontakt uspjesno dodan.
-Senzor vjetar uspjesno dodan.
-Senzor smjer vjetra uspjesno dodan.
-Aktuator otvaranje/zatvaranje vrata uspjesno dodan.
-Aktuator dizanje/spuštanje rampe uspjesno dodan.
-
-Aktuator dizanje/spuštanje platna za ploču uspjesno dodan.
-Aktuator dizanje/spuštanje televizora uspjesno dodan.
-Aktuator snimanje kamerom uspjesno dodan.
-Aktuator paljenje/gašenje lampe uspjesno dodan.
-
-- PRIDRUZIVANJE SENZORA AKTUATORIMA -
--------------------------------------
-
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
-Senzor dim pridruzen je aktuatoru: dizanje/spuštanje platna za ploču
-Aktuatoru dizanje/spuštanje platna za ploču pridruzen je senzor: dim
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: dim
+Senzor dim pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje televizora pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje televizora
+Aktuatoru dizanje/spuĹˇtanje rampe pridruzen je senzor: smjer vjetra
+Senzor smjer vjetra pridruzen je aktuatoru: dizanje/spuĹˇtanje rampe
+Aktuatoru dizanje/spuĹˇtanje rampe pridruzen je senzor: smjer vjetra
+Senzor smjer vjetra pridruzen je aktuatoru: dizanje/spuĹˇtanje rampe
+Aktuatoru dizanje/spuĹˇtanje platna za ploÄŤu pridruzen je senzor: unutarnja temperatura
+Senzor unutarnja temperatura pridruzen je aktuatoru: dizanje/spuĹˇtanje platna za ploÄŤu
+Dretva radi...
+Ciklus: 1
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 2
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 36.6
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 2.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 23.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 23.2
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 56.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 179.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 60.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 43.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 13.8
+Stanje - Sensor: unutarnja temperatura => 24.1
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 73.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 28.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: unutarnja temperatura => 31.6
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 43.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 35.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 94.0
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Sensor: smjer vjetra => 4.7
+Stanje - Sensor: smjer vjetra => 5.2
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.4
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 173.0
+Ciklus: 2
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 2.3
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 7.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 82.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 170.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 18.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 22.8
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 26.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 197.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 10.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 13.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 5.200001
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 7.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 138.0
+Stanje - Sensor: unutarnja temperatura => 18.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 33.3
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 68.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 69.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 28.0
+Stanje - Sensor: smjer vjetra => 4.8
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Sensor: smjer vjetra => 4.5
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 1.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 137.0
+Ciklus: 3
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 9.2
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 14.1
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 87.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 21.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 58.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 0.0
+
+Stanje - Sensor: unutarnja temperatura => 35.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 48.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 51.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 61.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 14.7
+Stanje - Sensor: unutarnja temperatura => 23.099998
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 150.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 123.0
+Stanje - Sensor: unutarnja temperatura => 30.099998
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 39.5
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 71.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 88.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 20.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 6.0
+Stanje - Sensor: smjer vjetra => 5.1
+Stanje - Sensor: smjer vjetra => 5.4
+Stanje - Sensor: smjer vjetra => 4.2
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 31.7
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 98.0
+Ciklus: 4
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 18.3
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 48.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 32.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 23.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 38.5
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 30.2
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 92.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 98.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 76.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 16.5
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 177.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 41.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: unutarnja temperatura => 9.4
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 32.4
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 28.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 55.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 83.0
+Stanje - Sensor: smjer vjetra => 3.4999998
+Stanje - Sensor: smjer vjetra => 0.7999997
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 1.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 22.4
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 71.0
+Ciklus: 5
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 4.8999996
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 47.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 162.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 21.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 43.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.4
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 3.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 36.9
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 29.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 18.8
+Stanje - Sensor: unutarnja temperatura => 6.8999996
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 135.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 196.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 56.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 14.9
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 59.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 89.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 79.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 17.0
+Stanje - Sensor: smjer vjetra => 0.9
+Stanje - Sensor: smjer vjetra => 4.1
+Stanje - Sensor: smjer vjetra => 5.3
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 32.2
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Ciklus: 6
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 2
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 3
+Zamjena uredaja: dim => dim
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 1.2000008
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 1.0000007
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 102.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 76.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 113.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 148.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 5.7
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 129.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 48.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 40.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 16.5
+Stanje - Sensor: unutarnja temperatura => 19.2
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 66.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 148.0
+Stanje - Sensor: unutarnja temperatura => 29.3
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 15.499999
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 4.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 63.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 82.0
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Sensor: smjer vjetra => 1.5
+Stanje - Sensor: smjer vjetra => 3.2
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 184.0
+Ciklus: 7
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 27.4
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 38.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 19.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 131.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 107.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 1.7999992
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 196.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 7.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 82.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 9.9
+Stanje - Sensor: unutarnja temperatura => 36.9
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 117.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 8.0
+Stanje - Sensor: unutarnja temperatura => 39.600002
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 12.6
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 38.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 8.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 81.0
+Stanje - Sensor: smjer vjetra => 6.3
+Stanje - Sensor: smjer vjetra => 3.3000002
+Stanje - Sensor: smjer vjetra => 2.6000001
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 159.0
+Ciklus: 8
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 34.9
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 23.6
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 25.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 176.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 118.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 1.6000004
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 111.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 67.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 81.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 42.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 2.7
+Stanje - Sensor: unutarnja temperatura => 32.2
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 88.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 197.0
+Stanje - Sensor: unutarnja temperatura => 37.5
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 24.6
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 36.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 36.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 92.0
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Sensor: smjer vjetra => 5.5
+Stanje - Sensor: smjer vjetra => 5.3
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 10.700001
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 54.0
+Ciklus: 9
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+Broj pogresaka za uredaj: 1
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 29.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 90.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 59.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 89.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 17.9
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 197.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 1.1000004
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 28.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 6.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: unutarnja temperatura => 27.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 125.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 166.0
+Stanje - Sensor: unutarnja temperatura => 28.3
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 6.299999
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 8.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 80.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 79.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 26.0
+Stanje - Sensor: smjer vjetra => 1.7000003
+Stanje - Sensor: smjer vjetra => 0.0
+Stanje - Sensor: smjer vjetra => 7.0
+Stanje - Aktuator: dizanje/spuĹˇtanje rampe => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 142.0
+Ciklus: 10
+Provjeravam mjesto: FOI 1 - knjiĹľnica
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - restoran
+-------------------
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - ulazna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam mjesto: FOI 1 - vijeÄ‡nica
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - sistem sala
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvorana 1
+-------------------
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam aktuator: 299 dizanje/spuĹˇtanje televizora
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - parkiraliĹˇte
+-------------------
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam senzor: 219 smjer vjetra
+ => Ispravan uređaj.
+Provjeravam aktuator: 347 dizanje/spuĹˇtanje rampe
+ => Ispravan uređaj.
+Provjeravam mjesto: FOI 1 - dvoriĹˇna vrata
+-------------------
+Provjeravam senzor: 467 dim
+ => Ispravan uređaj.
+Provjeravam senzor: 50 unutarnja temperatura
+Broj pogresaka za uredaj: 1
+Provjeravam aktuator: 674 dizanje/spuĹˇtanje platna za ploÄŤu
+ => Ispravan uređaj.
+Stanje - Sensor: unutarnja temperatura => 23.8
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 36.9
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 3.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 41.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 0.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: dim => 0.0
+Stanje - Sensor: unutarnja temperatura => 7.000002
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 84.0
+Stanje - Sensor: dim => 1.0
+Stanje - Sensor: unutarnja temperatura => 0.0
+Stanje - Sensor: dim => 0.0
+Stanje - Aktuator: dizanje/spuĹˇtanje platna za ploÄŤu => 199.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 48.0
+Stanje - Aktuator: dizanje/spuĹˇtanje televizora => 70.0
+Stanje - Sensor: dim => 1.0
 

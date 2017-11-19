@@ -7,41 +7,61 @@ package dlackovi2_zadaca_2.algorithm;
 
 import dlackovi2_zadaca_2.Dlackovi2_zadaca_2;
 import static dlackovi2_zadaca_2.Dlackovi2_zadaca_2.places;
-import dlackovi2_zadaca_2.algorithm.util.DeviceStatusChecker;
 import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
+import dlackovi2_zadaca_2.util.FileManager;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
- * @author foobar
+ * @author dlackovi2
  */
 public class RandomAlgorithm extends Algorithm
 {
-    RandomNumberGenerator rng;
-    List<Integer> checkedIDs = new ArrayList<>();
-    
+    private FileManager fileManager = FileManager.getInstance();
+    private RandomNumberGenerator rng;
+    private List<Integer> checkedIDs = new ArrayList<>();
+
     RandomAlgorithm(long seed)
     {
-        rng = RandomNumberGenerator.getInstance(seed);
+        this.rng = RandomNumberGenerator.getInstance(seed);
     }
 
     @Override
-    public void checkPlaces() {
-        
-        for(int i = 0; i < places.size(); i++)
+    public void checkPlaces()
+    {
+        for (int i = 0; i < places.size(); i++)
         {
-            Integer nextId = rng.dajSlucajniBroj(0, places.size() - 1);
-            while(checkedIDs.contains(nextId))
-                nextId = rng.dajSlucajniBroj(0, places.size() - 1);
-            
-            checkedIDs.add(nextId);
-            Place place = places.get(nextId);
-            System.out.println("Provjera mjesta: " + place.getName() + " ID: " + place.getId());
-            place.setDevices(DeviceStatusChecker.checkStatus(place.getDevices()));
+            Integer nextID = rng.dajSlucajniBroj(0, places.size());
+            while (checkedIDs.contains(nextID))
+            {
+                nextID = rng.dajSlucajniBroj(0, places.size());
+            }
+
+            checkedIDs.add(nextID);
+            Place place = places.get(nextID);
+            System.out.println("Provjeravam mjesto: " + place.getName() + "\n-------------------");
+            try
+            {
+                fileManager.exportData("Provjeravam mjesto: " + place.getName() + System.lineSeparator() + "-------------------");
+            }
+            catch (IOException ex)
+            {
+                Logger.getLogger(ObrnutoAlgorithm.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            try
+            {
+                place.setDevices(DeviceStatusChecker.checkStatus(place.getDevices()));
+            }
+            catch (IOException ex)
+            {
+                Logger.getLogger(RandomAlgorithm.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
-
 }

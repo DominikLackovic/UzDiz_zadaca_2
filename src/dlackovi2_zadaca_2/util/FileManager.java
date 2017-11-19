@@ -1,5 +1,6 @@
 package dlackovi2_zadaca_2.util;
 
+import dlackovi2_zadaca_2.builder.PlaceBuilderImpl;
 import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
@@ -69,22 +70,16 @@ public class FileManager
                     br.readLine();
                     while ((line = br.readLine()) != null)
                     {
-                        Place pla = (Place) placePrototype.clone();
                         String[] places = line.split(delimiter);
-                        pla.setName(places[0]);
-                        pla.setType(Integer.valueOf(places[1]));
-                        pla.setnSensors(Integer.valueOf(places[2]));
-                        pla.setnActuators(Integer.valueOf(places[3]));
-                        pla.setUsable(true);
-                        pla.setId(rng.dajJedinstveniBroj());
+                        Place tempPlace = new PlaceBuilderImpl().setName(places[0]).setType(Integer.valueOf(places[1])).setnSensors(Integer.valueOf(places[2])).setnActuators(Integer.valueOf(places[3])).setUsable(true).setId(rng.dajJedinstveniBroj()).build();
                         
                         boolean placeExists = false;
                         for(Object p : data)
                         {
-                            if(((Place) p).getName().equals(pla.getName()))
+                            if(((Place) p).getName().equals(tempPlace.getName()))
                             {
-                                exportData("Mjesto s imenom " + pla.getName() + " vec postoji. Preskacem.");
-                                System.out.println("Mjesto s imenom " + pla.getName() + " vec postoji. Preskacem.");
+                                exportData("Mjesto s imenom " + tempPlace.getName() + " vec postoji. Preskacem.");
+                                System.out.println("Mjesto s imenom " + tempPlace.getName() + " vec postoji. Preskacem.");
                                 placeExists = true;
                             }
                         }
@@ -92,11 +87,11 @@ public class FileManager
                         if(placeExists)
                             continue;
                         
-                        if(pla.getType() == 0 || pla.getType() == 1) 
+                        if(tempPlace.getType() == 0 || tempPlace.getType() == 1) 
                         {
-                            data.add(pla);
-                            exportData("Mjesto " + pla.getName() + " uspjesno dodano.");
-                            System.out.println("Mjesto " + pla.getName() + " uspjesno dodano.");
+                            data.add(tempPlace);
+                            exportData("Mjesto " + tempPlace.getName() + " uspjesno dodano.");
+                            System.out.println("Mjesto " + tempPlace.getName() + " uspjesno dodano.");
                         }
                         else
                         {
@@ -109,23 +104,23 @@ public class FileManager
                     br.readLine();
                     while ((line = br.readLine()) != null)
                     {
-                        Sensor sen = (Sensor) sensorPrototype.clone();
+                        Sensor tempSensor = (Sensor) sensorPrototype.clone();
                         String[] sensors = line.split(delimiter);
-                        sen.setName(sensors[0]);
-                        sen.setType(Integer.valueOf(sensors[1]));
-                        sen.setKind(Integer.valueOf(sensors[2]));
-                        sen.setMinValue(Float.valueOf(sensors[3]));
-                        sen.setMaxValue(Float.valueOf(sensors[4]));
+                        tempSensor.setName(sensors[0]);
+                        tempSensor.setType(Integer.valueOf(sensors[1]));
+                        tempSensor.setKind(Integer.valueOf(sensors[2]));
+                        tempSensor.setMinValue(Float.valueOf(sensors[3]));
+                        tempSensor.setMaxValue(Float.valueOf(sensors[4]));
                         if (sensors.length >= 6)
                         {
-                            sen.setComment(sensors[5]);
+                            tempSensor.setComment(sensors[5]);
                         }
                         
-                        if((sen.getType() >= 0 && sen.getType() <= 2) && (sen.getKind() >= 0 && sen.getKind() <= 3)) 
+                        if((tempSensor.getType() >= 0 && tempSensor.getType() <= 2) && (tempSensor.getKind() >= 0 && tempSensor.getKind() <= 3)) 
                         {
-                            exportData("Senzor " + sen.getName() + " uspjesno dodan.");
-                            System.out.println("Senzor " + sen.getName() + " uspjesno dodan.");
-                            data.add(sen);
+                            exportData("Senzor " + tempSensor.getName() + " uspjesno dodan.");
+                            System.out.println("Senzor " + tempSensor.getName() + " uspjesno dodan.");
+                            data.add(tempSensor);
                         }                    
                         else
                         {
@@ -138,23 +133,23 @@ public class FileManager
                     br.readLine();
                     while ((line = br.readLine()) != null)
                     {
-                        Actuator act = new Actuator();
+                        Actuator tempActuator = new Actuator();
                         String[] actuators = line.split(delimiter);
-                        act.setName(actuators[0]);
-                        act.setType(Integer.valueOf(actuators[1]));
-                        act.setKind(Integer.valueOf(actuators[2]));
-                        act.setMinValue(Float.valueOf(actuators[3]));
-                        act.setMaxValue(Float.valueOf(actuators[4]));
+                        tempActuator.setName(actuators[0]);
+                        tempActuator.setType(Integer.valueOf(actuators[1]));
+                        tempActuator.setKind(Integer.valueOf(actuators[2]));
+                        tempActuator.setMinValue(Float.valueOf(actuators[3]));
+                        tempActuator.setMaxValue(Float.valueOf(actuators[4]));
                         if (actuators.length >= 6)
                         {
-                            act.setComment(actuators[5]);
+                            tempActuator.setComment(actuators[5]);
                         }
 
-                        if((act.getType() >= 0 && act.getType() <= 2) && (act.getKind() >= 0 && act.getKind() <= 3))  
+                        if((tempActuator.getType() >= 0 && tempActuator.getType() <= 2) && (tempActuator.getKind() >= 0 && tempActuator.getKind() <= 3))  
                         {
-                            exportData("Aktuator " + act.getName() + " uspjesno dodan.");
-                            System.out.println("Aktuator " + act.getName() + " uspjesno dodan.");
-                            data.add(act);
+                            exportData("Aktuator " + tempActuator.getName() + " uspjesno dodan.");
+                            System.out.println("Aktuator " + tempActuator.getName() + " uspjesno dodan.");
+                            data.add(tempActuator);
                         }    
                         else
                         {

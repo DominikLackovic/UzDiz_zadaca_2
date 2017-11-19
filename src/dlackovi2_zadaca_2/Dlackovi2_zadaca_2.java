@@ -5,13 +5,13 @@ import dlackovi2_zadaca_2.algorithm.AlgorithmFactory;
 import dlackovi2_zadaca_2.algorithm.ConcreteAlgorithm;
 import dlackovi2_zadaca_2.iterator.Container;
 import dlackovi2_zadaca_2.iterator.Iterator;
-import dlackovi2_zadaca_2.iterator.impl.PlaceIterator;
+import dlackovi2_zadaca_2.iterator.PlaceIterator;
 import dlackovi2_zadaca_2.model.Actuator;
 import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
 import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
-import dlackovi2_zadaca_2.thread.RadnaDretva;
+import dlackovi2_zadaca_2.dretva.Dretva;
 import dlackovi2_zadaca_2.util.FileManager;
 import dlackovi2_zadaca_2.util.FileType;
 import dlackovi2_zadaca_2.validation.ArgumentValidator;
@@ -30,7 +30,6 @@ import java.util.stream.Collectors;
  */
 public class Dlackovi2_zadaca_2 implements Container
 {
-
     public static List<Place> places = null;
     public static List<Sensor> sensors = null;
     public static List<Actuator> actuators = null;
@@ -53,17 +52,8 @@ public class Dlackovi2_zadaca_2 implements Container
         RandomNumberGenerator rng = RandomNumberGenerator.getInstance(validArguments.getSeed());
 
         Iterator iter = new PlaceIterator();
-        /*while( iter.hasNext())
-        {
-            Place pl = (Place) iter.next();
-            System.out.println(pl.getName() + " " + pl.getId());
-        }*/
-
- /*for(Sensor s : sensors)
-            System.out.println(s.getName());
-        for(Actuator s : actuators)
-            System.out.println(s.getName());*/
-        //pridruzivanje uređaja mjestima
+        
+        //PRIDRUZIVANJE UREĐAJA MJESTIMA
         List<Sensor> sensors0 = sensors.stream().filter(p -> p.getType() == 0).collect(Collectors.toList());
         List<Sensor> sensors1 = sensors.stream().filter(p -> p.getType() == 1).collect(Collectors.toList());
         List<Sensor> sensors2 = sensors.stream().filter(p -> p.getType() == 2).collect(Collectors.toList());
@@ -171,20 +161,8 @@ public class Dlackovi2_zadaca_2 implements Container
         //fileManager.exportData(sensorsToActuators);
         //fileManager.exportData(actuatorsToSensors);
 
-        RadnaDretva dretva = new RadnaDretva(validArguments.getSeed(), validArguments.getnCycle(), validArguments.getCycleDuration(), validArguments.getAlgorithm());
+        Dretva dretva = new Dretva(validArguments.getSeed(), validArguments.getnCycle(), validArguments.getCycleDuration(), validArguments.getAlgorithm());
         dretva.start();
-
-        /*System.out.println("PROVJERA SLIJEDNO");
-        Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
-        algorithm.checkPlaces();
-        
-        System.out.println("PROVJERA OBRNUTO");
-        algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", validArguments.getSeed());
-        algorithm.checkPlaces();
-        
-        System.out.println("PROVJERA RANDOM");
-        algorithm = new ConcreteAlgorithm().createAlgorithm("random", validArguments.getSeed());
-        algorithm.checkPlaces();*/
     }
 
     @Override
@@ -192,25 +170,4 @@ public class Dlackovi2_zadaca_2 implements Container
     {
         return new PlaceIterator();
     }
-
-    /* static class PlaceIterator implements Iterator
-    {
-        int index;
-
-        @Override
-        public boolean hasNext()
-        {
-            if (index < places.size())
-                return true;
-            return false;
-        }
-
-        @Override
-        public Object next()
-        {
-            if (this.hasNext())
-                return places.get(index++);
-            return null;
-        }
-    }*/
 }
