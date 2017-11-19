@@ -153,7 +153,9 @@ public class Dlackovi2_zadaca_2 implements Container
                                 Sensor s = activeSensors.get(rng.dajSlucajniBroj(0, activeSensors.size()));
                                 tempSensors.add(s);
                                 sensorsToActuators += "Aktuatoru " + act.getName() + " pridruzen je senzor: " + s.getName() + System.lineSeparator();
+                                fileManager.exportData("Aktuatoru " + act.getName() + " pridruzen je senzor: " + s.getName());
                                 actuatorsToSensors += "Senzor " + s.getName() + " pridruzen je aktuatoru: " + act.getName() + System.lineSeparator();
+                                fileManager.exportData("Senzor " + s.getName() + " pridruzen je aktuatoru: " + act.getName());
                             }
                             act.setAttachedSensors(tempSensors);
                         }
@@ -163,19 +165,14 @@ public class Dlackovi2_zadaca_2 implements Container
         }
 
         //ISPIS PRIDRUZENIH
-
-        //TODO
-        
-
         System.out.println("Rezultati pridruzivanja:");
         System.out.println(sensorsToActuators);
         System.out.println(actuatorsToSensors);
-        fileManager.exportData(sensorsToActuators);
-        fileManager.exportData(actuatorsToSensors);
+        //fileManager.exportData(sensorsToActuators);
+        //fileManager.exportData(actuatorsToSensors);
 
-
-        RadnaDretva dretva = new RadnaDretva(validArguments.getSeed());
-        dretva.start();
+        //RadnaDretva dretva = new RadnaDretva(validArguments.getSeed());
+        //dretva.start();
 
         /*System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
