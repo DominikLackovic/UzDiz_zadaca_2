@@ -13,6 +13,7 @@ import dlackovi2_zadaca_2.model.Device;
 import dlackovi2_zadaca_2.model.Place;
 import dlackovi2_zadaca_2.model.Sensor;
 import dlackovi2_zadaca_2.rng.RandomNumberGenerator;
+import java.text.DecimalFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
@@ -30,6 +31,7 @@ public class RadnaDretva extends Thread{
     int rbCiklusa = 0;
     private boolean stop = false;
     String vrstaAlgoritma;
+    RandomNumberGenerator rng;
     
     public RadnaDretva(long seed, int maxCiklusa, int trajanjeCiklusa, String vrsta)
     {
@@ -37,6 +39,7 @@ public class RadnaDretva extends Thread{
         this.trajanjeCiklusa = trajanjeCiklusa;
         this.seed = seed;
         this.vrstaAlgoritma = vrsta;
+        rng = RandomNumberGenerator.getInstance(seed);
         
         RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
         if(this.maxCiklusa == 0)
@@ -100,10 +103,80 @@ public class RadnaDretva extends Thread{
                 System.out.println("== OČITANJE == Sensor: " + sensor.getName() + " Stanje: " + sensor.getValue());
                 switch(sensor.getKind()){
                         case 0:
+                            int value = (int) rng.dajSlucajniBroj(sensor.getMinValue(), sensor.getMaxValue());
+                            if(sensor.isAscend())
+                            {
+                                if((sensor.getValue() + value) >= sensor.getMaxValue())
+                                {
+                                    sensor.setValue(value);
+                                    sensor.setAscend(false);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() + value);
+                                }
+                            } else
+                            {
+                                if((sensor.getValue() - value) <= sensor.getMinValue())
+                                {
+                                    sensor.setValue(sensor.getMinValue());
+                                    sensor.setAscend(true);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() - value);
+                                }
+                            }
                             break;
                         case 1:
+                            float floatValue = rng.dajSlucajniBroj(sensor.getMinValue(), sensor.getMaxValue());
+                            double val = Math.round(floatValue * 10) / 10.0;
+                            floatValue = (float) val;
+                            if(sensor.isAscend())
+                            {
+                                if((sensor.getValue() + floatValue) >= sensor.getMaxValue())
+                                {
+                                    sensor.setValue(floatValue);
+                                    sensor.setAscend(false);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() + floatValue);
+                                }
+                            } else
+                            {
+                                if((sensor.getValue() - floatValue) <= sensor.getMinValue())
+                                {
+                                    sensor.setValue(sensor.getMinValue());
+                                    sensor.setAscend(true);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() - floatValue);
+                                }
+                            }
                             break;
                         case 2:
+                            float floatValue5 = rng.dajSlucajniBroj(sensor.getMinValue(), sensor.getMaxValue());
+                            double valu = Math.round(floatValue5 * 10000) / 10.00000;
+                            floatValue5 = (float) valu;
+                            if(sensor.isAscend())
+                            {
+                                if((sensor.getValue() + floatValue5) >= sensor.getMaxValue())
+                                {
+                                    sensor.setValue(floatValue5);
+                                    sensor.setAscend(false);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() + floatValue5);
+                                }
+                            } else
+                            {
+                                if((sensor.getValue() - floatValue5) <= sensor.getMinValue())
+                                {
+                                    sensor.setValue(sensor.getMinValue());
+                                    sensor.setAscend(true);
+                                } else 
+                                {
+                                    sensor.setValue(sensor.getValue() - floatValue5);
+                                }
+                            }
                             break;
                         case 3:
                             if(sensor.getValue() == 1)
@@ -120,10 +193,80 @@ public class RadnaDretva extends Thread{
                 System.out.println("== OČITANJE == Aktuator: " + actuator.getName() + " Stanje: " + actuator.getValue());
                 switch(actuator.getKind()){
                         case 0:
+                            int value = (int) rng.dajSlucajniBroj(actuator.getMinValue(), actuator.getMaxValue());
+                            if(actuator.isAscend())
+                            {
+                                if((actuator.getValue() + value) >= actuator.getMaxValue())
+                                {
+                                    actuator.setValue(value);
+                                    actuator.setAscend(false);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() + value);
+                                }
+                            } else
+                            {
+                                if((actuator.getValue() - value) <= actuator.getMinValue())
+                                {
+                                    actuator.setValue(actuator.getMinValue());
+                                    actuator.setAscend(true);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() - value);
+                                }
+                            }
                             break;
                         case 1:
+                            float floatValue = rng.dajSlucajniBroj(actuator.getMinValue(), actuator.getMaxValue());
+                            double val = Math.round(floatValue * 10) / 10.0;
+                            floatValue = (float) val;
+                            if(actuator.isAscend())
+                            {
+                                if((actuator.getValue() + floatValue) >= actuator.getMaxValue())
+                                {
+                                    actuator.setValue(floatValue);
+                                    actuator.setAscend(false);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() + floatValue);
+                                }
+                            } else
+                            {
+                                if((actuator.getValue() - floatValue) <= actuator.getMinValue())
+                                {
+                                    actuator.setValue(actuator.getMinValue());
+                                    actuator.setAscend(true);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() - floatValue);
+                                }
+                            }
                             break;
                         case 2:
+                            float floatValue5 = rng.dajSlucajniBroj(actuator.getMinValue(), actuator.getMaxValue());
+                            double valu = Math.round(floatValue5 * 10000) / 10.00000;
+                            floatValue5 = (float) valu;
+                            if(actuator.isAscend())
+                            {
+                                if((actuator.getValue() + floatValue5) >= actuator.getMaxValue())
+                                {
+                                    actuator.setValue(floatValue5);
+                                    actuator.setAscend(false);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() + floatValue5);
+                                }
+                            } else
+                            {
+                                if((actuator.getValue() - floatValue5) <= actuator.getMinValue())
+                                {
+                                    actuator.setValue(actuator.getMinValue());
+                                    actuator.setAscend(true);
+                                } else 
+                                {
+                                    actuator.setValue(actuator.getValue() - floatValue5);
+                                }
+                            }
                             break;
                         case 3:
                             if(actuator.getValue() == 1)

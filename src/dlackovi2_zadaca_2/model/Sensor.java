@@ -14,6 +14,7 @@ public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
     private float maxValue;
     private String comment;
     private float value;
+    private boolean ascend = true;
     
     public Sensor()
     {
@@ -107,6 +108,14 @@ public class Sensor extends DeviceRandomStatusAbstract implements Cloneable
     public void setComment(String comment)
     {
         this.comment = comment;
+    }
+
+    public boolean isAscend() {
+        return ascend;
+    }
+
+    public void setAscend(boolean ascend) {
+        this.ascend = ascend;
     }
 
     

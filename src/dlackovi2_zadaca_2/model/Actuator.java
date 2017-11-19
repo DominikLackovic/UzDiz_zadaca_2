@@ -18,6 +18,7 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
     private String comment;
     private List<Sensor> attachedSensors = new ArrayList<>();
     private float value;
+    private boolean ascend = true;
     
     public Actuator()
     {
@@ -122,6 +123,16 @@ public class Actuator extends DeviceRandomStatusAbstract implements Cloneable
     {
         this.attachedSensors = attachedSensors;
     }
+
+    public boolean isAscend() {
+        return ascend;
+    }
+
+    public void setAscend(boolean ascend) {
+        this.ascend = ascend;
+    }
+    
+    
     
     @Override
     public Object clone() throws CloneNotSupportedException
