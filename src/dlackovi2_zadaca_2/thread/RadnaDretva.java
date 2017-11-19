@@ -29,12 +29,14 @@ public class RadnaDretva extends Thread{
     int trajanjeCiklusa = 0;
     int rbCiklusa = 0;
     private boolean stop = false;
+    String vrstaAlgoritma;
     
-    public RadnaDretva(long seed, int maxCiklusa, int trajanjeCiklusa)
+    public RadnaDretva(long seed, int maxCiklusa, int trajanjeCiklusa, String vrsta)
     {
         this.maxCiklusa = maxCiklusa;
         this.trajanjeCiklusa = trajanjeCiklusa;
         this.seed = seed;
+        this.vrstaAlgoritma = vrsta;
         
         RandomNumberGenerator rng = RandomNumberGenerator.getInstance(seed);
         if(this.maxCiklusa == 0)
@@ -58,17 +60,11 @@ public class RadnaDretva extends Thread{
             rbCiklusa++;
             System.out.println("Redni broj ciklusa: " + rbCiklusa);
             //TODO Odabir algoritma iz parametara
-            System.out.println("PROVJERA SLIJEDNO");
-            Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", seed);
+            if(vrstaAlgoritma == "" || vrstaAlgoritma == null || !vrstaAlgoritma.equals("slijedno") || !vrstaAlgoritma.equals("random") || !vrstaAlgoritma.equals("obrnuto"))
+                vrstaAlgoritma = "slijedno";
+            System.out.println("PROVJERA: " + vrstaAlgoritma);
+            Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm(vrstaAlgoritma, seed);
             algorithm.checkPlaces();
-            
-            /*System.out.println("PROVJERA OBRNUTO");
-            algorithm = new ConcreteAlgorithm().createAlgorithm("obrnuto", seed);
-            algorithm.checkPlaces();
-
-            System.out.println("PROVJERA RANDOM");
-            algorithm = new ConcreteAlgorithm().createAlgorithm("random", seed);
-            algorithm.checkPlaces();*/
             
             PlaceIterator iterator = new PlaceIterator();
             while(iterator.hasNext())
