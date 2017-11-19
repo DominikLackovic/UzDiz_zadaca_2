@@ -14,9 +14,9 @@ import dlackovi2_zadaca_2.algorithm.ConcreteAlgorithm;
  */
 public class RadnaDretva extends Thread{
 
-    private int seed;
+    private long seed;
     
-    public RadnaDretva(int seed)
+    public RadnaDretva(long seed)
     {
         this.seed = seed;
     }

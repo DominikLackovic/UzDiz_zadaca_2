@@ -126,6 +126,10 @@ public class Dlackovi2_zadaca_2 implements Container
         }
 
         //PRIDRUZIVANJE SENZORA AKTUATORIMA
+        System.out.println("\n- PRIDRUZIVANJE SENZORA AKTUATORIMA -\n-------------------------------------");
+        fileManager.exportData(System.lineSeparator() + "- PRIDRUZIVANJE SENZORA AKTUATORIMA -" + System.lineSeparator() + "-------------------------------------");
+        String sensorsToActuators = "";
+        String actuatorsToSensors = "";
         Iterator iter2 = new PlaceIterator();
         while (iter2.hasNext())
         {
@@ -133,7 +137,7 @@ public class Dlackovi2_zadaca_2 implements Container
             List<Device> devicesInsidePlace = place.getDevices();
             List<Sensor> activeSensors = (List<Sensor>) (List<?>) devicesInsidePlace.stream().filter(p -> p.getClass().getTypeName().endsWith("Sensor") && p.getStatus() == true).collect(Collectors.toList());
             List<Actuator> activeActuators = (List<Actuator>) (List<?>) devicesInsidePlace.stream().filter(p -> p.getClass().getTypeName().endsWith("Actuator") && p.getStatus() == true).collect(Collectors.toList());
-            
+
             if (activeSensors.size() > 0)
             {
                 for (Device device : devicesInsidePlace)
@@ -146,7 +150,10 @@ public class Dlackovi2_zadaca_2 implements Container
                             List<Sensor> tempSensors = new ArrayList<>();
                             for (int i = 0; i < rng.dajSlucajniBroj(1, activeSensors.size()); i++)
                             {
-                                tempSensors.add(activeSensors.get(rng.dajSlucajniBroj(0, activeSensors.size())));
+                                Sensor s = activeSensors.get(rng.dajSlucajniBroj(0, activeSensors.size()));
+                                tempSensors.add(s);
+                                sensorsToActuators += "Aktuatoru " + act.getName() + " pridruzen je senzor: " + s.getName() + System.lineSeparator();
+                                actuatorsToSensors += "Senzor " + s.getName() + " pridruzen je aktuatoru: " + act.getName() + System.lineSeparator();
                             }
                             act.setAttachedSensors(tempSensors);
                         }
@@ -154,13 +161,17 @@ public class Dlackovi2_zadaca_2 implements Container
                 }
             }
         }
-        
+
         //ISPIS PRIDRUZENIH
-        //TODO
-        
-        RadnaDretva dretva = new RadnaDretva((int) validArguments.getSeed());
+        System.out.println("Rezultati pridruzivanja:");
+        System.out.println(sensorsToActuators);
+        System.out.println(actuatorsToSensors);
+        fileManager.exportData(sensorsToActuators);
+        fileManager.exportData(actuatorsToSensors);
+
+        RadnaDretva dretva = new RadnaDretva(validArguments.getSeed());
         dretva.start();
-        
+
         /*System.out.println("PROVJERA SLIJEDNO");
         Algorithm algorithm = new ConcreteAlgorithm().createAlgorithm("slijedno", validArguments.getSeed());
         algorithm.checkPlaces();
