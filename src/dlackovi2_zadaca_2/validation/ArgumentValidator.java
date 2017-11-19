@@ -220,7 +220,7 @@ public class ArgumentValidator
             hasError = true;
         }
 
-        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "nasumicno");
+        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "random");
         System.out.print("Algorithm: ");
         if (cmd.getOptionValue("alg") != null && algorithms.contains(cmd.getOptionValue("alg")))
         {

@@ -210,7 +210,7 @@ public class ArgumentValidator2
                         }
                         break;
                     case "-alg":
-                        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "nasumicno");
+                        List<String> algorithms = Arrays.asList("slijedno", "obrnuto", "random");
                         System.out.print("Algorithm: ");
                         if (!args[i + 1].startsWith("-") && algorithms.contains(args[i + 1]))
                         {
